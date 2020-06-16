@@ -1,9 +1,10 @@
-# bot.py
+#!/usr/bin/python
 import os
 import re
 import discord
 import tabulate
 import class_call
+import random
 
 from discord.ext import commands
 from discord.ext.tasks import loop
@@ -21,6 +22,8 @@ TEST_CC_CHANNEL = os.getenv('TEST_CC_CHANNEL')
 cc_regex = '^(?P<position>[1-9])\s?[-]?\s?(?P<name>.*)$'
 bot = commands.Bot(command_prefix='!')
 class_call = ClassCall()
+
+roll_list = ['acro borg', 'sborg', 'x+k', 'solo x+k', 'x+m', 'gal', 'sal', 'tech', 'stech', 'pyro', 'hpsy', 'spsy', 'htact', 'tact', 'stact', 'gho', 'sho', 'gs', 'ss', 'qmed', 'bmed', 'demo', 'sdemo', 'gwm', 'fcwm', 'swm']
 
 @bot.event
 async def on_ready():
@@ -126,7 +129,13 @@ async def unlock(ctx):
     class_call.time_since_last_call = 0
     class_call.lock = False
     await ctx.send('Class call unlocked.')
-
+    
+@bot.command(name='roll', help='Rolls a class, either from a provided list (separated by space), or from a pre-selected list.')
+async def roll(ctx, *elements):
+    list = elements or roll_list
+    sample = random.sample(list, 1)[0]
+    await ctx.send(str(sample))
+    
 @bot.command(name='set_lock_timer', help='Sets the inactivity period until the class call is automatically locked, in seconds.')
 async def set_lock_timer(ctx, input=None):
     global class_call
