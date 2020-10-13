@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from class_call import ClassCall
 
 from leaderboards import Leaderboards
+from info import Info
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -34,11 +35,6 @@ async def on_ready():
 @bot.command(name='hello', help='Responds with "Hello!"')
 async def hello(ctx):
     await ctx.send('Hello!')
-    
-@bot.command(name='about_me', help='Returns information about the bot.')
-async def about_me(ctx):
-    await ctx.send('Author: JokingPhantom/Valcrist77')
-    await ctx.send('Current host location: Amazon EC2, US East')
 
 @bot.command(name='cc', help='Responds with the current Class Call. If given a format as an argument, it will respond with the current Class Call in that format.')
 async def cc(ctx, format=None):
@@ -181,5 +177,6 @@ async def auto_lock_cc():
 
 auto_lock_cc.start()
 bot.add_cog(Leaderboards(bot))
+bot.add_cog(Info(bot))
 bot.run(TOKEN)
 
