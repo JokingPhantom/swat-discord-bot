@@ -20,10 +20,6 @@ roll_list = ['acro borg', 'sborg', 'x+k', 'solo x+k', 'x+m', 'gal', 'sal', 'tech
 async def on_ready():
     print(f'{bot.user} has connected to Discord!')
 
-@bot.command(name='hello', help='Responds with "Hello!"')
-async def hello(ctx):
-    await ctx.send('Hello!')
-
 @bot.command(name='roll', help='Rolls a class, either from a provided list (separated by space), or from a pre-selected list.')
 async def roll(ctx, *elements):
     list = elements or roll_list
