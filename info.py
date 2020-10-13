@@ -13,3 +13,4 @@ class Info(commands.Cog):
     async def about_me(self, ctx):
         await ctx.send('Author: JokingPhantom/Valcrist77')
         await ctx.send('Current host location: Amazon EC2, US East')
+        await ctx.send('https://github.com/JokingPhantom/swat-discord-bot')
