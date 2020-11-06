@@ -1,5 +1,5 @@
 Fastest EXT:
-Valcrist77 17/21
+Valcrist77 18/23
 
 61:55, P200912, ext2020_11_04_2211 win 9man 61_55 fc tech 2mini2 1drop.w3g
 63:38, P131227, http://www.redscull.com/forum/viewtopic.php?p=224243#224243
@@ -10,7 +10,9 @@ Valcrist77 17/21
 72:01, P180511, ext2019_02_26_2103 win 8man 72_01 s+k lads.w3g
 72:46, P200412, ext2020_04_16_1613 win 9man 72_46 tech 2mini2.w3g
 73:17, P131227, http://www.redscull.com/forum/viewtopic.php?p=224156#224156
+73:33, P200912, ext2020_11_05_2105 win 7man 73_33 2mini2.w3g
 73:56, P200523, ext2020_05_24_1655 win 7man 73_56 duobox skill tech goon pyro 2mini2.w3g
+74:06, P200912, ext2020_11_04_2211 win 7man 74_06 goon gwm lad3 2mini2.w3g
 74:45, P200328, ext2020_03_29_2235 win 6man 74_45 cr tech 2mini2.w3g
 75:06, P180511, ext2019_02_23_1232 win 9man 75_06 tact cadet lads.w3g
 75:39, P180511, ext2019_02_21_2010 win 5man 75_39 tech.w3g
