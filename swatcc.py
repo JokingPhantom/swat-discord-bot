@@ -11,6 +11,8 @@ from discord.ext.tasks import loop
 from dotenv import load_dotenv
 from class_call import ClassCall
 
+from leaderboards import Leaderboards
+
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 SWAT_SERVER_ID = os.getenv('SWAT_SERVER_ID')
@@ -166,12 +168,6 @@ async def on_message(message):
         else:
             await message.channel.send('Class Call locked.')
     await bot.process_commands(message)
-    
-@bot.command(name='leaderboard', help='Shows records of fastest Extinctions, Legendary Extinctions, and Nightmares. Valid names are: exts, legendary_exts, nms. Ping Valcrist to update this list.')
-async def leaderboard(ctx, name):
-    f = open(''.join(['fastest_', name, '.txt']), 'r')
-    file_contents = f.read()
-    await ctx.send(file_contents)
 
 @loop(seconds=1)
 async def auto_lock_cc():
@@ -184,5 +180,6 @@ async def auto_lock_cc():
             # await channel.send('Class Call locked after {} seconds of inactivity.'.format(class_call.lock_timer))
 
 auto_lock_cc.start()
+bot.add_cog(Leaderboards(bot))
 bot.run(TOKEN)
 
