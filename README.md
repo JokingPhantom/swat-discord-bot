@@ -1,5 +1,5 @@
 # swat-discord-bot
-Discord community bot for SWAT: Aftermath
+Discord community bot for the Warcraft III custom game, SWAT: Aftermath
 
 Requirements:
 1. pip
