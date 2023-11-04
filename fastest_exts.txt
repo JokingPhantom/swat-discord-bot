@@ -6,7 +6,7 @@ Fastest EXT:
 66:39, P131227, http://www.redscull.com/forum/viewtopic.php?p=224160#224160
 69:01, P180511, ext2019_02_09_0020 win 7man 69_01 acro sho.w3g
 72:01, P180511, ext2019_02_26_2103 win 8man 72_01 s+k lads.w3g
-72:33, P220405, ext2022_07_07_2103 win 9man 72_33 fc gs lad3 mini2.w3g
+72:33, P220405, ext2022_07_07_2103 win 9man 72_33 fc gs lad3 mini2 1drop.w3g
 72:46, P200412, ext2020_04_16_1613 win 9man 72_46 tech 2mini2.w3g
 73:17, P131227, http://www.redscull.com/forum/viewtopic.php?p=224156#224156
 73:33, P200912, ext2020_11_05_2105 win 7man 73_33 2mini2.w3g
