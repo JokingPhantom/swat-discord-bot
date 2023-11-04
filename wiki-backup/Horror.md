@@ -42,7 +42,7 @@ On Extinction, the Horror will increase the radiation count to at least 42 + 2*u
 On Extinction, the Horror will spawn rad walkers during Blackout based on the following formula: 
 minimum(zombies_in_1600_range / 3, (udg_iPlayerCount-udg_RadResisters) * 4)
 
-On Extinction, the Horror Rad Bolt costs 20 mana to cast and deals 1200 radiation damage.
+On Extinction, the Horror Rad Bolt costs 20 mana to cast, has a 6 second cooldown, and deals 1200 radiation damage.
 
 The rad bolt skill will be used against a random player, even if the
 tank is doing a good job of holding aggro. Casting rad bolt breaks the
