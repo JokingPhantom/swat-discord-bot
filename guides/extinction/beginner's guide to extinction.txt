@@ -1,0 +1,28 @@
+Checklist for a successful EXT:
+1. Tank
+2. Healer
+3. AOE Damage
+4. Single Target DPS
+5. Mob slow
+6. Drug user
+7. 1 Engineer
+8. 
+
+Most common ways to wipe during Nemesis:
+1. Spider Mines. Drop aggro, shoot non-boss, hold fire, move away.
+2. Tanking Nemesis as a non-tanking class. Never shoot Nemesis unless you are ready to tank Nemesis. Immedietely hold fire or shoot mob if you need to drop aggro.
+3. Splash on people standing on Mini Droids. Everyone should manually control their attack target. No attack move or standing still.
+4. Splash on people standing on Spider Mines. Everyone should manually control their attack target. No attack move or standing still.
+5. Umbrellas shooting the team to death. It's not possible to reliably drop aggro when umbrellas are at close range, so its a DPS race.
+6. Wimps, tank dies, team dies. Tank, Off Tank, Healer, and Freeze Ray must use batteries ASAP
+7. Mind Slay with no Buffouts, Surged Nurse, Mender
+8. No Batteries left to use
+9. Fly Abom killing stunned people. Drop aggro before killing an abom, to avoid Nemesis Stun.
+10. Commandos shooting the team to death
+11. Know Your Name
+
+Easy tips to not wipe during Nemesis:
+1. Attacking the right target. Do not tank and waste batteries if you are not a tank. Tank should always attack a boss. Squishy team members should shoot mob, or not shoot at all. Nobody except for Mini/Spider control roles should shoot minis or spiders.
+2. Stop shooting when you need to remain unstunned for freeze/recall. All units that are shooting are susceptible to being stunned at any moment. Move away from shooting allies to avoid taking EMP AOE or Rocket AOE (Rocket multi-target is AOE based on a single attacking unit)
+3. Every team member should have locker batts. Pull them in to save the tank/healer/DPS, even if it's just to give those batteries to someone else.
+4. 

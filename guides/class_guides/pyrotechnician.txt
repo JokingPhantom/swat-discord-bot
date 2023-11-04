@@ -1,0 +1,29 @@
+Standard Group Pyro:
+Build: 
+Energizer, Energy Cells, Tinkering
+Engineer, Cybernetics, Tinkering
+Engineer build is harder and weaker, but cheaper. Dying is a huge 1250-1750e penalty.
+
+Having at least one intelligence boosting pick will let you use Freeze Ray for Nemesis fight, which may be necessary if no one else can use it.
+
+Skill Build:
+
+    1 molotov/1 microwave/1 rocket
+    Keep microwave at a level where it can still one shot normal mob. Do not keep it at level 1, or it will be too difficult to finish off charred mutants and super gargoyles.
+    10/14/19 nanites for early/mid/late game
+    Max rockets with excess points
+    Dump excess points into molotov and microwave. More molotov gives you more persistant slows, and more microwave will give you better clear and commie killing power.
+
+Guide:
+
+    Constantly use firefly to scout rooms. Be sure to call out any Hazmats, item rooms, ABMs, and other items of interest, so that your solo can mark it down.
+    Firefly is helpful for clearing the fungal spawns, and for finding the Chronotech item in the park.
+    Use firefly to provide vision during the night of moving mob.
+    Early overburn can assist in holding the mob, especially when given attack speed boosts, though this is usually only during objectives when the team does not possess a better buff target.
+    When fighting commandos, you can microwave the commander (the one with less armor), so the psy can slay it with less cooldown. If kiting the commandos, you can microwave all of them at 500 range, then wait 20 seconds and finish them all off. If working with a watchman xnade, microwave 60-70% of the full health commandos, then microwave the commandos that have been left alive xnaded, so that they are killed within the shortest interval possible. If working with an Ion Cannon, microwave all the commandos, then hit them with the Ion Cannon to finish them off. If working with normal group guns, microwave to finish off the commandos when they all reach low health. In all situations, attempt to minimize the interval during the commandos die, to reduce chances of them reviving and killing you in revenge.
+    Use microwave on fast moving, low-medium HP targets, such as TNT zombies, TNT dogs, fume zombies, etc. You can use microwave on high health targets as well, but only once and if you have a surplus of energy - this is most useful to attempt to reduce damage from blinking hyperghouls.
+    Use Rockets on all bosses, tommies, hyperghouls, Super Gargoyles, blue dogs, and any other high HP target. You may hold off on certain targets, if killing them will damage or inconvenience the group, such as a poorly positioned Sludge, STNT, or tnt ghoul.
+    Careful about the splash damage from a high level microwave when killing a target with substantial amounts of HP left - it can kill teammates you were trying to save in niche situations.
+    High energy cap will enable you to use combustion more efficiently, and spend your mana when there is a surplus.
+    You will rarely need to charge your microwave, since charging it can leave you vulnerable to fast priorities, and keeping it leveled high enough to one shot mob will give you plenty of room to hit priorities. Only charge it during safe times, or after Nemesis teleports away. You may be forced to use it during high uber games, when mob HP is signficantly over 1k hp, though it is usually sufficient to find partially damaged targets to microwave instead.
+    Microwaving Nemesis can give your team a little bit of extra DPS. The microwave status debuff expires after 20 seconds. This is one of the most useful times to use a charged microwave. At max level 16, 1k dmg * 2 from 1x charge, at 40% effectiveness on PA units, is 800 pure damage, applicable every 20 seconds, which is worth roughly an assault rifle's worth of dps.

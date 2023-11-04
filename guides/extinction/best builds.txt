@@ -1,0 +1,21 @@
+S Tier Builds:
+Pyro/Energizer/Energy Cells/Tinkering/Heavy Armor
+Tech/Gadgeteer/Robotics/Hacking/Heavy Armor
+Tech/Reckless/Robotics/Hacking/Heavy Armor
+Sniper/Flower Child/Chemistry/Running/Medium Armor
+Psychologist/Healer/Triage/Hacking/Medium Armor
+Medic/Energizer/Triage/Hacking/Medium Armor
+Tactician/Reckless/Leadership/Hacking/Heavy Armor
+Maverick/Gadgeteer/Chemistry/Hacking/Heavy Armor + Kami
+Alice/Gadgeteer/Chemistry/Hacking/Heavy Armor
+Watchman/Flower Child/Chemistry/Toughness/Advanced Armor
+Cyborg/Acrobat/Cybernetics/Running/Heavy Armor
+Heavy Ordanance/Reckless/Espionage/Running/Light Armor
+Demolitions/Engineer/Cybernetics/Toughness/Heavy Armor
+
+A Tier Builds:
+Sniper
+
+
+C Tier Builds:
+Battle Borg, if off tank: Gadge/Chem, Engi, FC/Chem, Energizer

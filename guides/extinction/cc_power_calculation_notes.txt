@@ -1,0 +1,106 @@
+Building Optimal CCs can be formulated as a needs satisfaction, or optimization game (e.g. using Dantzig's simplex algorithm).
+
+Propose the following base attributes for a CC:
+
+1. Nemesis DPS
+2. Boss DPS
+3. Crowd Control
+4. Main Tank
+5. Off Tank ability
+6. Priority Control
+7. Healing power
+8. Reactor objective power
+9. Civilian objective power
+10. Rad objective power
+11. Room clearing power
+12. Group Strategic Movement speed
+13. SRAD/Blue Rad objective power
+14. Hazmat objective power
+15. Clutch power
+
+Propose the following intermediate attributes, which serve as intermediaries for other traits:
+1. Gold supply/demand
+2. Item supply/demand
+3. Top Secert Item usage capabilities
+4. Mini Droid MKII usage capabilities
+5. LAD usage capabilities
+
+
+These attributes possess a complex relationship, that then translates to the following:
+
+1. Group stability/ chances of not wiping at any given moment
+2. Group win speed
+
+The goal is to build a CC that wins as fast as possible, while maintaining as much stability as possible to reduce failed games and wasted time.
+Individual classes and builds contribution a certain amount to each attribute, and combinations of classes/builds can contribute more or less together, than they otherwise would individually.
+
+Initial rough draft for attribute values for any given class:
+
+* Tech Ops:
+Base attributes:
++1 Tank power
++2 Offtank power (+1 CPU/ +1 other robots)
++3 Nemesis DPS
++1 Boss DPS
++3 Crowd Control
++1 Priority Control
++2 Reactor objective power
++-1 Group Strategic Movement speed
++1 SRAD/Blue Rad objective power
++1/0 Clutch power
+
+Intermediate attributes:
+-4 Gold supply/demand
+-2 Item supply/demand
+Freeze ray user
+Riot user
++3 Mini droid MKII usage capabilities
++3 LAD usage capabilities
+
+The biggest possible cornerstone of a team. A fully built robotic army is incredibly expensive, but is a very versatile and strong durable resource for the team.
+CPU can serve as the main tank in a full house extinction, but this requires high levels of coordination to reduce Nemesis Damage, destroy Commandos, and high levels of Crowd Control.
+Also puts a burden on QM needs, since it can require anywhere between 15-17 items, and 10-30-42 circuit boards
+
+* Pyrotechnician:
+Base attributes:
++3 Boss DPS
++2 Crowd Control
++2 Priority Control
++1 Reactor objective power
++1/0 Clutch power
+
+Intermediate attributes:
+0 Gold supply/demand
+0/-1 Item supply/demand
+Freeze ray user
+
+* Group Alice:
+Base attributes:
++1 Boss DPS
++1 Nemesis DPS
++3 Crowd Control
++1 Priority Control
++1 Healing power
++1 SRAD/Blue Rad objective power
++2/0 Clutch power
+
+* Group HO:
+
+* Group Sniper:
+
+* Medic:
+
+* Group Demo:
+
+* FCWM:
+
+* Group WM:
+
+
+* Solo Alice:
+
+* Solo HO:
+
+* Solo Psy:
+
+* Solo Demo:

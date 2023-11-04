@@ -1,0 +1,164 @@
+Valcrist77's Double Mini2 Build
+Build:
+
+Reckless/Robotics/Hacking, or
+
+Packrat/Robotics/Hacking, or
+
+Gadgeteer/Robotics/Hacking 
+
+Notes:
+
+    Take heavy or medium, depending on your preference for evading blinking ghouls and spawning minis via sprint.Set robo-pet to Zephyr, or Minor Energy Field if there's a 2nd robo-pet.
+    You can take other specializations if there are 2 other Robotics users.
+    The gadgeteer version of this build is basically identical, but you can build LADs with the Storage Duo-Cell/Rapid-Reloads/Droid Remote without ammo upgrades, then remake them when the ammo upgrades become available. You can build 1 Droid Remote normally, then drop the Remote in the locker of lab - the LAD remote will be able to power the hero built Mini Droid MKII. You can also fuse 2 Droid Remotes into 2 LADs, instead of holding one in your hero's inventory.
+    You can ditch either Droid Remote if your team is hard up on cash, though this is sub-optimal.
+    You can build both Droid Remotes on the Packrat hero, though this is sub-optimal due to the lower damage. As compensation, you will be able to spend an additional 720g on 6 circuit boards, to skill more Robot Armor aura.
+    You can cast Neutralize on Nemesis while he is phased, though you must do it manually. Auto-Cast will not work on him during the phase.
+    You can hold a great deal of batteries, bandages, revives, and the Force-Field Neutralizer in your backpack/locker during Nemesis Fight. Keep more critical items in the backpack - you can drop those while dead, but you cannot access them from the locker while dead.
+    Zeal-Mag can be a good item in the LAD, but only during the early game, or if there is a lack of rapid reloads or other items to be fused. Mid- late game, its better to use the standard full builds, and leave the Zeal to be sold for 2k, or to be used by a Hero.
+    Chemistry is also good in low mans for guaranteed item LAD construction.Really, you can take almost any trait and specialization and it will be useful. Hacking is the only mandatory part of the build, due to the huge gold demand a robot army imposes.
+    Reckless is the strongest offensive option, due to the rapid availability of skill points for OVA at 15-20 minutes into the game, which gives your LADs large damage boosts very early in the game.
+    Packrat gives you additional QMing abilities, and a painless circuit board source for mods. It will also allow you to use a mini2 without putting a remote into the LAD.
+    Gadgeteer gives you the ability to use your own Riot shield, and other high int items. Usually mandatory in low man games due to the requirement of tanking with the CPU for the entire game, and the lack of other Riot users.
+    All other traits can be useful in their own ways, the tech ops has a wide variety of useful traits available. 
+    Only the CPU (and robodog) is immune to pissing off a Super Mutant. LADs and Mini Droid MKIIs can piss it off if given enough damage and armor reduction. 
+Skill build:
+
+    1 point into CPU/OVA/Flame, rest nanites
+    Get up the 16 CPU points and 10 nanites.
+    16 OVA, then rest into nanites or flamethrower, depending on your comfort level on nanites. Nanites are mostly necessary for friendly fire/blinking ghouls/nukes, which can be dodged by good micro, but don't feel bad about getting more nanites if necessary to stay alive.
+    CPU skill point distribution: 5/8/3/0. You can get more vitality instead of munitions, but 3 is the practical minimum to keep the other robots healthy after invariably tanking some splash and Nemesis laser hits.
+    LAD skill point distribution: Max nanites, 1 Concussive Rocket. 1st LAD before items and no gadge should max rad scan. 2 LADs should go max Concussive Rocket, while 1 LAD should go max OTA. You can dump excess skill points into Reconstruction, though the chances of this being used is slim to none.
+	LAD can also go off tank. Max reconstruct before anything else. It's deflection is the best skill in the game for tanking mob, Commandoes, Umbrellas, and Nemesis (Nemesis shots are partially deflected, 66-75% effectiveness). It is less effective against melee boss attacks.
+    Mini-Droid MKII skill point distribution: For Nemesis fight, put all 6 skill points into Neutralize, and turn on Auto-Cast or cast it yourself on Nemesis. Pre-Nemesis, a player built Mini Droid MKII should skill max Robot Armor aura. You can always remake your Mini-Droid MKII to change skill point distribution.
+
+Game Guide:
+
+    Scout towards the middle of the map: Aim to explore as many rooms as possible. Reach the lab either as soon as possible, or at 6 minutes. Get your first LAD out of the lab. You can skip this step if it was teleported to you by a sniper, but you should still short scout if possible due to the value of early rad hunting and item discovery.
+    Build a full LAD as soon as possible: The first 2 full LADs should have 3 ammo upgrades, 1 Rapid-Reload II/III, and 1 Storage Duo-Cell. If this is a 4-6 man game then having less ammo upgrades or no Storage Duo-Cell is acceptable. 2-4 man games may be forced to build a LAD with any of the mentioned items ASAP. Spec these 2 LADs with max nanites, and rest into Concussive Rockets.
+    Build the full LAD in a safe location: Good times to build LADs are - before first APC, during APCs, or after finishing a Reactor. Build it in the middle of back of the group, skill it to max nanites and drain a teammate as fast possible to minimize it being ambushed by a fast mob. Try to backpack or locker items that will go into a LAD, since your locker and backpack items are easily accessible. The optimal setup will have 3 Storage Duo-Cells, all 3 Rapid-reload types (1,2,3), 8 ammo upgrades, and 1 Droid Remote.
+    Fuse the Droid Remote in LAD #2 or #3: Since the 3rd LAD often comes between 40-60 minutes into the game, and your team is unlikely to have spare money until then, it is best to put the 1500g Droid Remote into the 3rd LAD, and spec that LAD to have only 1 point in Concussive Rockets, and the rest into OTA. If no 3rd LAD comes, you can just build 1 or 2 Droid Remotes yourself. Alternatively, you can fuse the Droid Remote into the 2nd LAD, if the team can spare the 1500g early enough. It is worthwhile at that point, though the team will have to stretch the budget a little. It helps to have partial power up for this to work, due to the large amount of gold from hacking/selling haz/selling items.
+    Build LAD Mini-Droid MKII now or later: Fusing the Droid Remote into the LAD does not increase uber - having the LAD build the Mini-Droid MKII via the Z menu will increase uber. You can save building the Mini-Droid MKII until late game, or build it ASAP for the tor filling power and laser DPS.
+    Use Robo-Mods via Locker: As the game progresses and money becomes more available, you can use your locker to purchase circuit boards and teleport them to your hero, for Robo-Mods. The CPU needs 2 orange/ 2 purple boards. Each LAD and Mini-Droid MKII needs 2 green/ 2 purple boards. Each player built Mini-Droid MKII needs 6 extra circuit boards for integration, which should be some combination of purple/green boards - I recommend 6 purple boards for a newer player, while 6 green boards can work out well for an experienced player. This is a total of 2 orange/ 12 purple/ 16 green boards, or 3600g. You can also add 2 green boards to the CPU for some nice extra DPS, and 2 orange boards on each Mini-Droid MKII, and then 2 orange boards on each LAD, for another 2 green/ 10 orange boards, or 1440g.
+    Consume ammo upgrades with CPU: This is the next best usage of ammo upgrades after the LADs, due to the high bonus damage and attack speed the CPU can receive.
+    (Re)Build LAD Mini-Droid MKII last: After building the Mini-Droid MKII via your Packrat hero, you should make sure to build/re-build the LAD Mini-Droid MKII. This will give all Mini-Droid MKII's under your control the higher laser damage skill via the LAD formula, instead of via the hero formula. The LAD formula often gives near maximum damage, while the hero formula requires high levels of Critical Strike and Flamethrower skill, which is a sub-optimal build in this case. You can rebuild any Mini-Droid MKII at no penalty - only non-packrat heroes cannot destroy them and have them drop integrated circuit boards. Robo-Mod circuit boards always drop.
+    You can remake your Mini-Droid MKII's to benefit from increased Hero/LAD level. A good time during Nemesis fight is after the Know-Your-Name phase Umbrella Ambush. Make sure to build the LAD Mini-Droid MKII last to get the higher laser damage skill.
+
+Cost Analysis:
+
+A properly built robot army will be the most expensive asset the team owns:
+
+LAD #1: 2000g (often 1k avg due to hacking for Recall 1)
+
+--- Duo-Cell (250g), Rapid-Reload III (250g), 3 ammo upgrades (300g)
+
+LAD #2: 1000g
+
+--- Duo-Cell (250g), Rapid-Reload II (250g), 3 ammo upgrades (300g)
+
+LAD #3: 500g
+
+--- Duo-Cell (250g), Rapid-Reload I (250g), 2 ammo upgrades (200g), Droid Remote
+
+Mini-Droid MKII 1 (1500g)
+
+Mini-Droid MKII 2 (1500g)
+
+-- 6 purple/green boards (720g)
+
+Necessary Robo-Mod boards: 2 orange/ 12 purple/ 10 green boards (2880g)
+
+Optional Robo-Mod boards: 2 green/ 10 orange (1440g)
+
+Ammo Upgrades on the CPU: 1-3 ammo upgrades (100-300g)
+
+Total cost:12500g - 14140g
+Numerical Analysis:
+
+Possible Attack Speed Boosts in a reasonable game:
+
+135% from Rapid Reload I-III
+
+150% from Level 24 Blitz triple stack, adjacency
+
+2-26% from natural LAD agi (level 40 for 13 agi)
+
+33% from Signal
+
+33% from Signal Stim
+
+10% from Zephyr
+
+20% from 2 green Robo-mods
+
+0-25% from OTA (level 14: is Max Nanites, level 15: first point in Rockets, level 16: first point in OTA, level 40: 25 points in OTA)
+
+432 Total
+
+Possible Attack Damage Boosts:
+
+56% from Level 16 OVA. Stacks twice.
+
+24% from Level 8 Munitions. Does not stack.
+
+Laser Heat
+
+Average Nemesis Fight Start: 1 Tech Ops, LAD level 31, 7man:
+
+135(RR) + 20(AGI) + 33(SIG) + 10(ZEPHYR) + 20(ROBOMOD) +16(OTA) = 234% IAS
+
+250 + 140 (OVA) + 37.5(CPU) + 120 (3 ammo) = 547.5 avg shot on LAD / 1.86 BAT = 294.35 base dps, 983.13 dps
+
+215 + 140 (OVA) + 32.25(CPU) = 387.25 avg shot on mini2 / .62 BAT = 624.60 base dps, 2086.16 dps ( 8.06 base DPS, 26.92 from level 1 Laser Heat from LAD)
+
+(294.35 * 3 + 624.60 * 2 + 8.06) * 3.34 = 7148.64 dps from all robots onto bosses. 
+
+Estimated tier value of traits under normal conditions:
+Tier S
+Reckless: +9 skill points, 13 Nanites cap (14 with MOH). Level 16 OVA early game substantially increases the group's firepower.
+Swift Learner: +7 levels, 3-4 extra int, better hero-built Mini Droid MKII. Only need 1 on team. Favor SL for extra nanites in dangerous games (high delay, high splash)
+
+Packrat: 11 extra inventory slots, easy access to circuit boards, Droid MKII -1eps/infinite range, extra stuff from rat. Benefits QM/solo power. Only need 1 on team
+Engineer: Self Riot, Early 5 MFG dupe for +10eps (5 slots, 1 open). Recall dupe for board/Droid Remote access/extra QM power. Dupe 5 MFG+ for +15eps. Undroppable items, undroppable cap. Fuse 2 items for +6eps. Death costs up to 1.5k extra mana. Possibly dupe Riot/Droid Remote
+Gadgeteer: Self Riot, 135 int items usable with head injury, possible to use LADs without ammo upgrades in early game. 5 batt stacks.
+
+Tier A
+Energizer: +5.33 eps, reserve battery acts as secondary 500e cap
+Healer: Civ power, regular injury removal, HP restore, backup reviver/stacker. Only need 1 on team
+Rad Resistant: No rad damage, rad power, spider mine explosion immunity, sleep resistance. Only need 1 on team
+
+
+Tier B
+Skilled: 4 skill points, 1 extra SP buy, +2 agi to CPU. 1 more Mini2 laser level.
+Survivalist: Armor, frees up 1 item slot. Anti slay. Kevlar Helments for team. Only need 1 on team
+Chem reliant: Use chrono/design plans, anti slay. 400-1200 gold cost. -1 item slot
+Gifted: Movespeed, 5 int. Extra early scout power. Save 13% int from head injury
+
+Tier C
+Dragoon: +1 Nanites, +3 armor.
+Acrobat: Better sprint, dodge on direct attacks
+Prowler: True sight, 10% ms during night. Only need 1 on team
+Flower Child: Use chrono/design plans. Self injury removal. 200-2000 gold cost. -1 item slot
+
+Estimated value of specializations under normal conditions, tiers:
+Tier S
+Robotics: +10MS/AS on robots, or +1eps on robots (6eps total). Only need 2
+
+Tier A
+Cybernetics: +4 int, +50 hp cap. 13% int saved on head injury.
+Leadership: +1 SP to ally, avg. + 13valor
+
+Tier B
+Energy Cells: +250-500 e cap
+Chemistry: With Chem Reliant on team, guarantees early access to mentats for LAD. +120 gold from mentats saved. Situational Tier A, if team cc relies on early built LADs
+Power Armor: extra hp tank, no power armor damage
+Triage: extra civ power, HP healing, bandage stacking
+
+Tier C
+Weaponry: +2 agi to CPU
+
+Estimated value of talents under normal conditions:
+Hacking: 1600-960 gold
+Wiring: 14% mana regen ~= .86 eps = 14 valor
+Tinkering: 4 black int ~= 15-20 valor if needed for Riot Shield. Less value when it does not get you extra item usage power, which is often.

@@ -1,0 +1,10 @@
+Build:
+3 Gun, 14 Nans, 8 Warp, Evenly distribute
+8 Gun, 16 Warp
+
+Queue Attack move clone, with gun, while scouting on outer loop, path to avoid corners
+Don't move attention of hero unless you are out in the open or know you are safe from room spawn intervals, boss, tyrant.
+Use stims as much as possible.
+Sprint/Punch/Stim and shockwave to clear medium amounts of mobs following you.
+Reset aggro by crossing paths with group where possible.
+Try to scout around the group, so you can reset back to group if necessary.

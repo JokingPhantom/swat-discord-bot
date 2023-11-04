@@ -1,0 +1,40 @@
+Support
+
+Author: Valcrist77
+
+The recommended way to play Tactician.
+
+Suggested Traits: Trait-rad.jpg  Rad Resistant, Trait-engineer.jpg  Engineer, Trait-healer.jpg  Healer, Trait-pack.jpg  Pack Rat, Trait-prowler.jpg  Prowler depending on what the team needs. Trait-skilled.jpg  Skilled, Trait-swift.jpg  Swift Learner, or Trait-reckless.jpg  Reckless work for more skill points
+
+Suggested Specs: Spec-triage.jpg  Triage, Spec-leadership.jpg  Leadership, Spec-cybernetics.jpg  Cybernetics
+
+Suggested Talents: Talent-hacking.jpg  Hacking
+
+    First points: 1 Blitz, 1 Endurance, rest into Nanites
+    Get to 10 effective Nanites.
+    Max Blitz
+    Max Endurance
+    Excess points to Nanites
+    Excess points into Weakpoint/Refined Rifle
+
+Recruit a Cadet ASAP and keep it alive. Give it a Kevlar for some armor. Kevlar is required to purchase the Shield Capacitor upgrade on the Cadet, giving it +250 energy cap and Medium Nanites (Heavy Nanites if Extinction).
+
+When the team is moving, prioritize Endurance. Otherwise prioritize Blitz.
+
+Stand within melee range of LADs, Mini MK2s, Cadet, Watchmen, and other team members to give them triple the normal Blitz attack speed boost, thereby maximizing team damage output.
+Battle Tact
+
+Author: Valcrist77
+
+Suggested Traits: Trait-dragoon.jpg  Dragoon. Trait-skilled.jpg  Skilled, Trait-swift.jpg  Swift Learner, or Trait-reckless.jpg  Reckless work for more skill points.
+
+Suggested Specs: Spec-weaponry.jpg  Weaponry
+
+Suggested Talents: Talent-hacking.jpg  Hacking
+
+    Keep rifle at twice Weakpoint until both are maxed. Spare points go into 8 Endurance and Max Nanites, then more Endurance.
+    Prioritize to get level 16 Weakpoint (requires 16 even points in other auras), stay within 625 range of all your targets.
+
+Recruit a woman ASAP to maximize attack speed.
+
+You will have to play much closer to the action, and reposition aggressively to make use of Weakpoint due to its short range. Since it is an aura, in old versions of Warcraft 3 it may take up to a second to apply to in range targets. Latest updates to the Warcraft 3 engine have greatly shortened the delay of aura applying to moving targets, though it still shortens the range slightly. 

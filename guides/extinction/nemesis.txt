@@ -1,0 +1,36 @@
+Nemesis Attack Range: 700
+Nemesis Stomp Range: 625
+Nemesis Teleport/Attack check: 900, if sniper 900 + 40*marksman level
+	Trig_NemesisNewTarget_Actions
+	Attack for 3 seconds if within range
+	Otherwise, teleport to hero
+
+Nemesis Nuke 
+Nemesis Flashbang
+Nemesis Anti Robotic EMP Wave
+Nemesis Anti Organic EMP Wave (NemesisRocket) Range: 264 of primary unit. Ignores any units within 336 range of Nemesis
+	Hits up to 3 secondary units, depending on player count/Nemesis mana
+Nemesis Energy Beam
+	Drains energy according to formula (210+30*udg_Nightmare*udg_iPlayerCount)
+Nemesis Mini Droid
+Nemesis Mind Slay
+Nemesis Anti Forcefield
+Nemesis Rad Blackout
+Nemesis Adrenaline
+Nemesis Second Life (Trig_NemesisHurtFinalCritical).
+	Temporary Vitality Boost
+	Enables Riot Shield
+	Big self nano inject
+	Start Confusion/Color Shift Timer
+	Temporary Movement speed Boost (equivalent to Cybernetics)
+	Special Final Nuke
+	Reactivate Forcefield
+	Reactivate Forcefield again (0.5 seconds before Special Final Nuke Explodes, exact same time Umbrella Watchman activates Forcefield)
+	
+Nemesis Fear Aura
+Nemesis Confusion/Color Shift. Triggered randomly between 30-150 seconds after Nemesis Second Life
+Nemesis Reinforcements (HP/Stage based)
+Nemesis Nano Inject
+Nemesis Riot Shield
+Nemesis Commando Squad: Randomly checked for spawn every Cycle. Disabled once Confusion is triggered
+Nemesis Phase Shield

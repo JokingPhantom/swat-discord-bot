@@ -1,0 +1,75 @@
+Scouting Guide
+
+Rooms:
+84 total rooms on the map
+2 Revealed Badly Damaged Reactors
+1 Revealed Severely Damaged Reactor
+3 Unrevealed Reactors, 1 of each type
+4 ABMs
+2 ATME Rooms
+1 Clothing Room
+1+ Trait Consumable Room
+1+ Basic Consumable Room
+1+ Advanced Consumable Room
+1+ Implants Room
+
+1+ Basic Gear Rooms
+1+ Advanced Gear Rooms
+
+1 LAD (can be placed together with any other room except ABMs/Reactors)
+6 exo pieces (25% for game to spawn exosuit pieces. Can be placed together with any other room except ABMs/Reactors)
+
+1 Large Hazmat Room
+2 Single Hazmat Rooms
+Note: Hazmat rooms can be placed together with each other and item rooms, but not ABMs/Reactors
+
+1 Shroom Room (spawns late, a couple minutes after difficulty is set)
+
+1 Blue Rad (any rad on the map is eligible to change to it)
+1 Rad room (this room gets 5-20 extra rads)
+
+After difficulty changes to EXT/NM, several seconds must elapse before rads turn into yellow/red rads. 
+Killing rads before rads change color/extra rads based on difficulty spawn will cause them to respawn.
+
+Park
+1 ChronoTech Corporation Box
+
+
+Graveyard
+Hazmats
+
+Paths:
+Outer loop
+Middle loop left
+Middle loop right
+Middle map
+Plaza
+Main group loop rooms (lower priority for solo because group will naturally scout these in 90% of games)
+Hard to get rooms (solo should ignore pathing to these early because they slow you down. Great ion targets)
+Park
+GY Haz Drag
+
+Guide:
+SHO can maintain 3 minis easily while filling batts early. 4 minis if lucky. 2 minis if really unlucky with room spawns.
+SHO can take outer loop, mid map, and one of the middle loop paths. Then get the other middle loop path, hard to get rooms, missed rooms.
+
+WM should take outher loop paths for lower room spawns
+Snipers should take middle loop paths or middle map due to higher difficulty of those rooms
+Techs should take middle loop paths.
+Borgs can take middle map or middle loop paths.
+
+Items can be moved to main group path, Bunkers, Reactors, ABMs.
+Haz can also be dragged to main group path, Bunkers, Reactors.
+80% of games should have group recalling some haz, it's usually more efficient.
+Teleporting recall to solo temporarily is a great way to clear haz or large item rooms + locker, saving time.
+
+Having 2-3 short scouts early with solo helps kill rads very fast. Group should be able to clear gy mob with adren/stims/aoe/drugs/turn up the heat/etc.
+
+Most important items to call out:
+ATME
+Chrono
+1st copy of Regular/Ref/Ultra stims
+1st copy of MFG/MFG+
+1st copy of RR2/RR3
+1st copy of CV1/CV2
+Hackable items for recall money (Kevlar/stims most likely)

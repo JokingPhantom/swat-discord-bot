@@ -1,0 +1,77 @@
+DPS Group HO:
+
+Author: Valcrist77
+
+Build: Swift Learner/Robotics/Toughness
+
+Reckless/Robotics/Toughness
+
+    1 cell/1 grid, save points for 4 ammo and grid
+    8 grid, 4 cells
+    10 Nanites
+	14 Grid (20cd, 94eps)
+    Spec into late game as necessary - grid for more battery filling, nanites to be a little tankier, and plasma rounds when you can start supporting the energy drain via grid. You won't need plasma rounds until you corrode your battery charger, which is around 20-30 minutes.
+    Late game: Max plasma rounds, 4 cells/4 ammo, max power grid (15cd, 100eps), 13 nanites if reckless, otherwise max nanites. Dump excess points into droid movespeed, cells, and droid integrity.
+    If off tanking, max nans and plasma shield before plasma rounds.
+
+    At the start, build 2 minis if not rushing a reactor or filling an early battery.
+    Build minis whenever not filling batteries.
+    Rush filling batteries with all excess energy, even after corroding the battery charger.
+    Maintain 5 minis with energy when you have spare energy after corroding your battery charger.
+    Be sure to get skill point from lab whenever possible.
+    When filling tors, fill with your hero early, and then XLR8 at the entrance. Phase your minis when they enter the reactor to fill.
+    When using XLR8, try to position yourself behind a boss, and 1200 range away from the nearest corner the mob is coming from. Minis can shoot up to 1750 (900 phase XLR8 range + 850 attack range at 4 ammo) units away with phased XLR8.
+    During Nemesis, break your XLR8 whenever Nemesis teleports away, and reset to another position to XLR8. If Nemesis's position when he arrives forces you to reposition, do it quickly.
+    Issue attack orders on Nemesis to avoid splashing allies accidentally. Shift queue attack orders if you need to engage multiple targets. Make sure to kill Commandos evenly, so they do not rez each other.
+    Be careful about splashing when your allies are repositioning - you can issue a move command on an allied unit to hold fire.
+    Target fire the middle of mob to maximize crowd control.
+    XLR8'ed phased minis are one of the best ways to destroy enemy mini droids and spider mines, due to their invulnerability, high DPS, and available attention span. Other classes with anti spider mine abilities will often be distracted with other responsibilities like off tanking, healing, etc, so the prime responsibility of calling out and destroying mini droids should fall on the GHO if available.
+	Excess MFGS, RR1, Pill Pouch with Buffouts, and other excess utility items for the team can be beneficial.
+	Excess Batteries can be burned during GY fight to sustain mini DPS.
+
+Light GHO:
+
+Same role as DPS GHO, but Rad Resistant/Light Armor/Running. 
+Survivalist also works, as a slighter weaker alternative.
+Forgo nanites entirely, so you can 8 spec/ 14 grid/ 13 plasma rounds.
+Short scout, scan frequently, and fill batts ASAP.
+Abuse sprint and minis to survive while short scouting
+Abuse sprint in group, either to catch up after griding, or to sprint ahead and then grid, or to just tank things
+Play like a SHO during Nemesis.
+
+Solo HO:
+
+Build: Reckless/Espionage/Running
+
+You can skimp on nanites early game if you have the micro and low delay, but nanites are a good use by nemesis due to splash possibilities and increased value of unphased minis due to tech ops auras.
+You can solo fill badly reactors in nightmare (4 hero beams, 5 droid), fill hero beams with 4 adjacent minis for armor bonus in case of pop, then grid/phase outside to tank repair droid. You can fill with batts as well, and no penalty before corrosion
+You can solo fill damaged reactors in extinction
+
+1 cell/1 grid, save points for 4 ammo/4 grid (need 1250e cap for 3rd mini after 1st power grid)
+8 grid (45cd, 73eps)
+4 cells
+1 droid mobility
+12 Nanites (91%, .95 hero 10, or 91%, .80 hero with moh 11) (91%, .60 mini 12)
+14 Grid (20cd, 94eps)
+13 Plasma Rounds (+44dmg/4e)
+14 Nanites (91%, .95 hero 12, or 91%, .80 hero with moh 13) (92%, .40 mini 14)
+16 Grid (15cd, 100eps)
+16 Plasma Rounds (+50dmg/4e)
+Dump excess points into droid durability and cells
+
+At the start, build mini #1, grid, then mini #2 and #3. Scout in different directions to maximize room clear speed
+Direct hero to item rooms of good value, and use XLR8 on rad rooms/red rads/blue rad/large item rooms
+Be more conservative with scouting at 11 and 18/21 minutes, AKA when room/priorities spawn, and keep minis/heroes within same quadrant.
+After delivering priority items (2nd LAD, regen for duping, RR3/2/1, ammos for 1st/2nd LAD), you should drop off far away items at Reactors/ABMs/APCs/ in the group's path. Moving everything to the lab directly is usually too slow.
+Use Buffouts or Mentats+Bandages to keep HP high from radiation/hazmat running.
+Use 1 Mentat+Stim pack to run fast when delivering items/selling Hazmats.
+After the city power is re-established (3 reactors filled), use the lab scan off cooldown to find rads in already explored rooms. Use a screenshot to keep record.
+Corrode battery charger ASAP. Camp lab batts after 8 grid or ABM batts, with max gold priority, as long as you can fill them to 4 batts. Aim for 20-25 minute corrosion.
+Keep mini in 1 block distance or closer of hero after 20 minutes, or early game when boss spawns are too close/have not been seen by group.
+Keep 1 mini in operating distance of graveyard, and attempt to spawn it every 4 minutes or so.
+Be prepared to XLR8 for SRAD after 30 minutes, depending on group status.
+Finish hazmats, assist reactor fills if close by.
+Remake minis before Nemesis spawns
+If tech ops is in game, maximize unphased mini adjacent XLR8 time to obtain max damage bonus.
+Use phase when Nemesis appears and direct minis away from group. You can unphase when the EMP stun has been thrown. Phase to dodge EMP stun on minis.
+Phase before wimps occurs.

@@ -1,0 +1,24 @@
+Valcrist77's Group Sniper
+
+If medic or psychologist with good stims: Dragoon/Weaponry/Tinkering, Dragoon/Espionage/Tinkering, Medium Armor
+
+If no medic: Flower Child/Chemistry/Tinkering, Medium Armor
+
+    Start 1/1/1/1, all skills are useful
+    8 conc for early stun, to save yourself while short scouting, or save the group from damage
+    3 crit if no other boss DPS incase of Super Mutant, otherwise 8 crit
+    6/14 nanites are breakpoints for early and mid game
+    16 conc and 8 aim
+    Dump excess points into marksmanship, nanites
+
+    Teleport LAD to group
+    Short scout for the first 9-20 minutes, depending on group's ability to handle priorities.
+    Teleport MFGs to yourself, then other useful items to group in order of priority.
+    Teleport dotes to group whenever they need them.
+    Use concussive grenade to save the tank/group from tanking hits, to reveal invisible units, and to delay any dangerous priority units.
+    Use concussive grenade on Nemesis to reduce his DPS
+    Use Aim in conjunction with the medic's adrenaline to kill bosses, and put down mob. Level 1 aim is only 29 seconds longer CD than the 60 second adrenaline timing, and aim at level 4 can basically keep up with medic's uptime on adrenaline. Your gun is usually more effective than any other gun for Adrenaline in almost all cases, including medium mob control. Rocket Launcher only becomes better when the mob is heavily funneled and properly aimed.
+    Teleport batteries and bandages to players that need them, and try to do it as soon as possible. Announce that you are teleporting critical items if they don't request it beforehand. Keep an eye on the healer/tanks inventory during tense situations, and Nemesis fight.
+    An efficient group will not over-rely on the snipers teleport - try to have them group recall for items in lab/using the ABM, so that you can keep your ITD counter lower. But don't be afraid to sell items when ABM access is not convenient, and to clean up the lab whenever you have spare energy.
+    Nemesis will give you a wider berth according to how much marksmanship you have (900 units + 40*marksman level). Use this to your advantage to stand apart from the group and avoid stuns/targeted attacking when attacking Nemesis, though do still mind the presence of other enemies. Nemesis may still choose to target you with spells, so this can't be done during graveyard fight.
+    Use concussive grenade when Nemesis is buffed, or on buffed Umbrella Commandos/Soldiers.

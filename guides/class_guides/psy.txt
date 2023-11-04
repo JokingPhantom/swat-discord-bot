@@ -1,0 +1,23 @@
+Build:
+Healer, Triage, Heavy, Hacking
+
+Skill Build:
+1 MC, 1 Moti, rest Nanites
+16 MC
+10 Nanites
+8 Moti
+14 Nanites
+Rest into Confidence or Nanites
+
+Spread MC between 3 different players. 
+When in doubt, ask an experienced player what the order should be.
+Most builds complete at LVL 36, getting as many late game scaling builds to that threshold is the most valuable use of MC.
+Rough Order of priority for MC: Non-SL Mecha, below LVL20 Reckless HO/Tech/WM/Sniper, Drug GAL/WM/Sniper, High Attack Speed Players, Tech.
+It's good to use more than 24 points into focii, since extra points are necessary to balance between 150/165 int and 16 Conf/8 Moti
+End game you should have enough int for 150 int items, 165 Chrono int if necessary. Then spread your skill points into Conf/Moti, unless there are no good Conf targets, then it's max Moti and rest MC.
+You should be LVL 41 around the same time as your teammates reaching LVL 36, given psy's 33% innate EXP bonus from Rank 12.
+
+Example Nemesis Spawn build, LVL 40:
+142 base int + 8 MC int = 150 int
+19 Nanites
+28 points in Focii: 8 MC, 16 Conf, 4 Moti

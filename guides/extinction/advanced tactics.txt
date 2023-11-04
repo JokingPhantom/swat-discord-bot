@@ -1,0 +1,120 @@
+Solo APC
+
+Solo can dote for first APC, if APC is in a bad spot. 
+Extra likely to get full 8 civs if Healer or Triage trait, but not necessary for this tactic. 
+This is possible because the first redotes are extra effective, a.k.a. super dotes.
+
+Offensive Detachment
+
+Attack the mob directly with a detachment, while the group is doing an objective that weakens them. Scouting/clearing rooms, Reactors, Blue Rad, Super Rad, dragging Haz. 
+Units with high offensive power and the ability to retreat are most suited to this role.
+Watchmen, Alice, and Tech Ops are most suited to this role.
+With stims, motivation, sprint, other movement speed boosts, classes with heavy firepower but less mobility can also perform this role.
+Drugs, Stims, LAD, Maverick X+K, Sniper, HO, Borg.
+Blue rad is extra punishing to robots, so it's even more efficient to use this tactic with LADs. HO should do blue rad due to phase droids skill, unless its firepower is necessary to hold off mob.
+The Detachment can protect claymores before retreating, delaying the mob for even longer and making claymores more effective by killing special mobs that would otherwise neutralize claymores (blue dogs, charred, stnt, etc.).
+The Detachment can come back to the Reactor to fill the last half of it, allowing the squishier members to fill first with no pressure.
+The Detachment may be in position to spawn graveyard, and protect or assist short scouts with rads/hazmat.
+The Detachment may elect to burn batteries for offensive purposes to put down hundreds of zombies, to prevent the group from taking hits. 
+Deatchments burning multiple stacks of batteries may be useful if players know what they are doing, but it requires higher coordination (locker can only support 1 battery stack every 5 minutes)
+
+Burning Batteries for Speed
+
+Batteries are traditionally used for tanks, healers, energy intensive crowd control/priority classes, and critical situations. 
+Batteries should also be burned by hero's filling reactors that are in danger of dying from a Reactor pop or being unable to fulfill healing, tanking, crowd control, or priority roles (pyro, tank, medic, alice, etc.). Batteries should be pre-emptively used (i.e use at 500e instead of automatically at 250e). 
+Groups with sufficient cap/regen and units that can tank tor pops effectively should not burn batteries, since no advantage is gained.
+Otherwise, they are normally conserved for Nemesis fight due to their limited numbers.
+In normal fast extinctions, there are 88 Batteries, or 22 stacks. 
+20 Lab batteries, 48 ABM batteries, ~20 recharged ABM batteries (30 minutes * 4 ABMS / 6 minutes per ABM battery recharge)
+22 stacks may seem like a lot, but its possible for groups to use all of them and more if they make mistakes. 
+Mini droids, spider mines, slays, splash damage, bad aggro handling, bad positioning can quickly consume all of a group's batteries, revives, and bandages. 
+Graveyard entry can be especially deadly to inexperienced groups, costing many stacks of batteries, revives, and bandages on every failed entry.
+However, there is a 3rd scenario: Advanced players may be able to leverage batteries to speed up the game when they otherwise wouldn't.
+This is especially helpful when Solars are available (20-40 charges from solars alone), or when there is an HO to fill batteries (on average, 1 battery per minute, or 40-60 batteries before nemesis)
+Simple Examples: 
+Filling Reactors when group is low on energy but in an acceptable position relatie to mob.
+Crowd Control with stims or AOE abilities
+
+Advanced Examples:
+Kiting mob from graveyard during Nemesis Fight
+Forward Detachment using stims/AOE abilities
+Pyro Microwave when group is pushing into mob
+
+Multitasking Objectives
+
+It's possible for coordinated teams to do multiple objectives at the same time.
+Filling an APC/Televac while filling a reactor.
+Doing SRAD while filling an APC/Televac.
+Doing Blue Rad while filling an APC/Televac.
+Clearing item rooms/hazmat/rads while filling an APC/Televac.
+Escorting Civillians to an APC/Televac with a detachment that can quickly regroup with the main group that proceeds on to the next objective.
+Teams that are sharpening their skills to beat extinctions faster and cleaner should take every opportunity to practice the coordination necessary.
+Players need to be take full advantage of movement speed boosts to clear rooms and move in and out of reactors as fast as possible.
+Players need to be able to use their antidotes rapidly using hotkeys, and temporary control groups to control civillians.
+
+Advanced Civving
+
+Zombies have a 20 second timer to be fully innoculated.
+After innoculation, there is a random 40-110 second timer for conversion to a civillian
+Healer zombies take 44% less time to convert: 20-65 seconds
+Good groups can fully innoculate civillians within 2-5 seconds, further cutting down on time.
+Due to wide range of conversion time, getting more civillians than necessary will cut down on the amount of time spent waiting for conversion. 
+For a rule of thumb on how much to overciv, get 50% more civillians than necessary.
+Getting more civillians is also necessary to counteract spider chance. This stacks multiplicatively with overcivving to reduce waiting for conversion timers.
+Example: 1st APC, aim to get 12 civillians. 4th APC, with 24 rescued civs, gives 3/8 (37.5%) chance for a civ to spider. So get 8 * 1.5 * (8/5) = 19 civillians. 
+This gets even harder when trying to finish the last few civs with a televac. When rescueing the 32nd civ into a televac, there is 31/64 (48.4%) chance for a civ to spider. 
+Moreover, civs are more likely to die before being rescued when the group cannot hold due to a late game special boss, high rads, difficult mob, etc.
+Unlucky groups may find that it takes 4-8 civs to get 1 good civ, waiting multiple times for their 1 civ to spider or get killed by umbrellas/splash, and be stuck waiting for 10-15 minutes redoing civillians and picking up dropped antidotes.
+So when finishing the last 1-7 civs using a televac, get even more by a factor of 3-6. 1 civ to 32 should mean getting 5-6. 3 civs to 32 may take 10-15 civs.
+Many antidotes will fail to initially convert civillians, unless using the Triage specialization. Furthermore, most heroes only carry 1 stack of antidotes. 
+Thus, efficient teams should have 2-3 primary doters at any time, and rotate primary doters when they get down to a 1 stack.
+Players can also hold multiple stacks of dotes to get more primary going. Especially helpful on heroes not dependent on items, like HO, Maverick, Psychologist, Tech Ops.
+QMs should refresh used stacks of antidotes constantly. Civving is easier when everyone starts with a full stack and is able to primary.
+For the first APC, if more civs are necessary and super dotes have run out, only dote 1 civ at a time. Trade the antidote stack between all group members to have everyone redote the civ, before getting the next civ.
+
+Map Spawns
+
+Spawning graveyard happens when any offensive unit enters the graveyard.
+Spawning graveyard has the advantage of only spawning basic zombies and the flaming zombie variant, which are much easier than room spawns.
+Room spawns are the only source of mini bosses and special mobs (ghouls, gargoyles, mutants, dogs, rad variants, tnt variants, super gargoyles, hyperghouls, snatchers, blue dogs, atomic zombies, charred mutants, icers, frost zombies, purple zombies, gray zombies)
+Spawning graveyard massively reduces the spawns from rooms, since there is a limit on how many enemy units are spawned at any time.
+Otherwise, the map will regularily spawn groups of zombies and special mobs in random rooms.
+Moreover, room spawns mostly come in waves, where many rooms spawn at nearly the same time. This is how you end up with 3-4 mini bosses attacking the group at the same time.
+Only occassionally will the map give you a calm break by not spawning anything - this only happens 10% of the time, and is prime time for reactor filling, but a bad time for rescueing civillians.
+Good teams will spawn the graveyard as often as is possible. 
+A good solo will also make small detours to spawn the graveyard.
+A great SHO can spawn the graveyard the most consistently, making the game substantially easier.
+Spawning the graveyard before 4 minutes is the most important early spawn, since it massively reduces room spawns that make room clearing very difficult.
+
+Hazmat Dragging/Recalling
+
+Clearing Hazmats is traditionally the solo's job, but efficient groups are often in a better position to clear them.
+Best plays a group can do:
+1. Drag GY Haz to one side
+2. Any short scouter should pull haz out of a room. It's easier to move haz out of a room early game, but dangerous late game.
+3. Any Watchman can move a hazmat back to group with partner teleport
+4. Group can recall hazmats
+5. Hazmats can be repositioned to a Reactor, on the group's short term path, or on the common long term path a group takes, allowing for easy recall.
+6. Hazmats can be dragged by any short scouter early game.
+7. Multiple hazmats can be dragged at the same time by constant micro. This is more efficient when at average movement speed or slower.
+8. Sell hazmats as early as possible. They are an excellent source of gold, reduce rads by 1, and selling all haz makes antidotes substantially more effective.
+9. Teleport recall to solo to move haz efficiently.
+10. Recall haz using multiple trips with a small detachment of 2-3 people, instead of the full team.
+
+Main Group Scouting
+
+The main group should be able to clear 10-20 rooms on their own in the beginning of the game.
+Using the group to clear item rooms early greatly increases their power, kills rads, making the solo's job easier.
+Early items on the group is critical for filling reactors early game. Having +20 regen and +2000 cap on the group as a whole makes reactor filling multiplicatively easier.
+Weak groups are often forced into only doing APCs, while strong groups have ultimate flexibility in objectives and can proceed much more efficiently.
+
+Double Main Tank
+
+Having only one tank for a group is a bottleneck.
+Solo tank only has so much HP and energy capacity, before needing heals and batteries.
+Solo tank being disabled makes the group vulnerable.
+Successful groups will bring an offtank, but it's actually more accurate to think of it as having two tanks.
+A solo tank will often burn batteries in difficult situations.
+Two tanks doubles your tanking capacity, conserving consumables that would otherwise be necessary for difficult situations.
+Two tanks of different types gives you variety - CPU, mecha, borg, HO all have differences that make them better in certain situations over other tanks.
+Two tanks gives you redundancy - one tank being disabled, out of position, or out of resources means the other can take over.

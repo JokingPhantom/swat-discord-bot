@@ -1,0 +1,40 @@
+Author: Valcrist77
+
+Solo Watchman:
+
+Build:
+Any trait can work. Good ones are Gifted, Gagdeteer, Chem Reliant, Rad Resistant.
+Espi Spec
+
+Core Xnade Skill Build:
+1 Overdrive, 1 Xnade Replication, rest Nanites
+Alternating points into 3 Overdrive, 10 Xnade (6 Replication, then 4 Leth), 14 Nanites
+19 Nanites, 4 Aux Gen, 2 Surge, 1 Nurse
+14 Xnade (6 Replication, 8 Leth)
+
+Core Gun Skill Build (skip Xnade if you have reliable attack speed for spiders):
+1 Overdrive, 1 Gun, 1 Xnade Leth, rest Nanites
+Alternating points into 3 Overdrive, 8 gun, 14 Nanites, 4 Xnade Leth
+19 Nanites, 4 Aux Gen, 4 Focus Laser
+2 Surge, 1 Nurse
+
+Be flexible with points, traits and intended end game build for WM is quite variable.
+Examples:
+Engi might take Neural Augmentation early to get Recall Duplicate
+High returner build means changing Xnade to 10 (2 Replication, 8 Leth) in order to save skill points
+FC Espi should get 8 pharm, skip nade completely and go 8 gun/4 focus laser (speeds can allow you to shoot off spiders quickly). Can also skip points in overdrive if good group short scouting
+If no demo, 1 point in Napalm can be useful for group
+Extra points can be put into 4 Surge
+Offtank build is still possible, 18 nans + scap + 4 Reflective Armor works fine.
+CR/Gadge should go gun and skip Xnade since stims are good
+Engi is suitable for surge build, can get 8 Replication and 4 Surge
+Infusion Efficiency is OK, though 8 pharm is usually better due to slay protection and stronger heals.
+4 Ocular Enhancement can be interesting if group has no Sniper/Psy/Prowler
+
+Guide:
+Solo normally. Take middle/inner loop if no short scouting, otherwise take outer loop.
+Xnade or gun rads/boxes depending on your trait/build.
+Both Xnade/Gun builds are suitable against shrooms early, though gun is substantially more reliable.
+Drag Items and Haz a lot to nearby ABMs/Tors, you aren't slow but you aren't fast either.
+Recall Items/Haz is good, especially if you hit a scouting "deadend" that involves backtracking. You can also path more efficiently to take advantage of recall allowing you to skip backtracking.
+By Nemesis, you assemble your Xnade/Gun/Surge/Returner/Offtank build. SWM is an average solo, which makes up for it by providing good utility at Nemesis.

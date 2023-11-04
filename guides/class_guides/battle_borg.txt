@@ -1,0 +1,51 @@
+Battle Borg:
+
+Gadge/Chem/Hacking
+FC/Chem/Hacking
+CR/Chem/Hacking
+22 + 10 + 18 = 150 int for ultras
+22 + 18 = 140 int for items
+
+Ref stims early game = 200% AS
+Ultra stims = 300% AS
+
+16/1/16/0
+XCM is more important. It gives more damage, HPS, armor, and consumes less energy. At 4 ammo it gives +69.275 dmg per hit, vs. 65 from PR. Both scale the same - full damage at all ranges of splash. 
+Note: Increased damage as "green damage" and orb of fire apply full damage across all splash zones, making it more effective than white damage (same for rockets, rifle)
+Level 36 with skillz implant gets you to 16/1/16 + 10 nanites, which is pretty fragile. Better to just stick with XCM and go off tank.
+0/1/16/8 + 19 nans requires level 37 with skillz implant
+
+16 XCM = 2eps, 85% DMG, 2hps, 8 armor
+Reg stims = 600e / 108s, 5.55eps
+Ref stims = 1000e / 108s, 9.26eps
+Ultra stims = 1200e / 108s, 11.11 eps
+16 Plasma rounds = 1e per attack. 0.76 BAT. 35 agi = .447 CD, 2.236 eps. at 400 AS, 0.152 CD, 6.579 eps
+
+XCM + Ultras = 13.11 eps
+XCM + Ultras + 16 PR = 19.689 eps
+
+4 ammo = (55+64+4+40)/2 = 81.5 dmg
+4 ammo + XCM = 81.5 * 1.85 = 150.775 dmg (69.275 dmg per hit)
+4 ammo + XCM + 16 PR = 150.775 + 65 = 215.775 dmg
+
+XCM/Ultras DPS = 6.579 * 150.775 = 991.949 dps
+XCM/Ultras/PR DPS = 6.579 * 215.775 = 1458.423 dps
+
+6 base eps + 2 eps (mfg int.) + 6.25 eps (lvl 30 backup batt) = 14.25 eps
+
+Recommended inventory:
+Vest
+Scap
+Ultras/Pouch
+Regen
+Regen
+Duo/Batts
+
+Rocket Borg:
+
+Engineer/Cyber/Hacking
+Energizer/Ecells/Hacking
+etc.
+
+16 rocket = 4000 damage, 1.33s stun, 5s CD, 200e.
+20 dmg/e, and 1.33 stun.

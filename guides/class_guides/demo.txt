@@ -1,0 +1,37 @@
+Author: Valcrist77
+
+MIRV Demo:
+
+Build:
+Energizer, Energy Cells, Toughness, Heavy Armor
+Engineer, Cybernetics, Toughness, Heavy Armor
+
+Skill Build:
+1 MIRV, 1 gen, rest nanites
+16 gen, 10 nanites
+4 MIRV
+Save skill points until Nemesis fight for 16 MIRV and as many Nanites as possible
+
+C4 Demo:
+
+Build: Reckless, Energy Cells, Toughness, Heavy Armor
+
+Skill Build:
+1 MIRV, 1 gen, rest nanites
+10 gen, 9 nanites
+Get level 4 C4 right as you leave GY camping
+4 MIRV, 16 gen
+5/6 C4 as game progresses and mob hits harder
+Save skill points until Nemesis fight for 16 MIRV and as many Nanites as possible
+
+Notes:
+Classic Demo build is centered around 16 MIRV, and as many gen/nanites points as possible.
+Low level MIRV is perfect for Innards, any priority target, grouped up mob, and even single zombies that approach the group from bad angles.
+High level MIRV napalm does high damage, persists for a long time, and is shaped like a long rectange. Position the group to funnel the mob through one path, and hit that path with MIRV to effectively hold back the mob.
+C4 Demo takes Reckless for more skill points, and C4 needs around 6 points throughout the game to be effective.
+At level 4 C4, it does 500 damage and has max radius. Level 5/6 give it more armor to take more hits, which is quite helpful when dealing with Reactors, SRAD, and Blue Rad. Higher levels of C4 are an inefficient usage of skill points, as they delay the mob too much and reduce exp gain by a substantial margin, as zombies spend more time hitting C4 instead of dying.You can manually micro the C4, or leave it on Trickster AI. Properly microed C4 is more effective than the AI, but the AI does a passable job.
+Avoid casting MIRV in areas where the tank will stand, as it reduces their armor.
+Constant nukes as the fallout allows will get your team extra levels, and help kill priorities before they reach the group. Ask for vision abilities from your team to find out where to nuke (cameras, fireflies, clairevoyance, etc.)
+Nuke can allow you to easily switch pathing directly into large mob by softening it up, before running through with the tank controlling aggro.
+Duo cells are the most effective item, as they allow you to Bio chem high HP targets and give you substantial mana gain. Any mini-boss or non hero target is a great unit to bio chem for mana and damage. 
+Duped mfgs/mfg+s are also useful, if bio chem is too hard to use effectively off cooldown.

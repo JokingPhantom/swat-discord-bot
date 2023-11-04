@@ -1,0 +1,75 @@
+Laser Rifle/Flower Child/Chemistry/Toughness
+
+    4 X-Grenade (0/2/1/1/) (Early nade to kill spiders in 1 shot)
+    10 Nanites
+    8 Laser + 4 dissipation (scale as needed with zombie mob HP)
+    11 X-Grenade (1/8/1/1) (scale with zombie mob HP, scale Lethality as game progresses in case commandos spawn)
+    4 gen
+    19 Nanites
+    4 deflection
+    1 nurse (get before Nemesis spawns)
+
+With high intelligence, FCWM is a good choice for off tank. 19 Nanites, Shield Capacitor, 4 Deflection, and 4 Aux. Gen.
+
+11 Points into X-Grenade gives maximum Commando killing power, and gives additional Priority Control and Crowd Control.
+
+FCWM is a good unit to deal with the enemy Mini-Droids that Nemesis spawns.
+
+    The Laser damage from FCWM destroys Minis rapidly.
+    X-Grenade is good at destroying Spider mines that spawn from the Mini-Droid's death.
+    Try to time it so that the grenade lands right after the enemy Mini-Droid is destroyed.
+
+8 Laser and 4 Dissipation gives great Priority Control and boss DPS.
+
+1 Nurse protects from slays and spider bombs.
+
+This is a skill point intensive build - Mental Clarity support from a Psychologist is required to reliably reach the number of skill points required.
+
+Sacrifice a few points in X-Grenade/ Laser if there aren't enough skill points to go around.
+
+Use high int items, bandages, stims, and speeds to boost firepower, energy regen and healing ability.
+Group WM
+
+Laser Rifle/Energizer/Energy Cells/Toughness
+
+11 nade (1/8/1/1)
+
+3-4 neural
+
+4 gen
+
+8 laser
+
+1 nurse
+
+rest into x-nade>distortion
+Group DPS WM
+
+Gatling/Chem Reliant/Chem/Toughness
+
+8 gun
+
+4 in dissipation
+
+3-5 nade (0/2-4+/0 if demo in game/1)
+
+more in regen and nade as available
+
+Consider using a pharm. 
+
+Utility WM
+
+Rifle/Reckless/Energy Cells/Tinkering
+Rifle/Swift Learner/Energy Cells/Tinkering
+
+5-9 nade (1 napalm, rest leth)
+13 nanites
+0 gun
+4 aux gen
+2-3 surge
+0-2 neuro
+16 returner. 1 nurse, 8 Prodigy, 1 pharm, 6 Military Android
+
+
+Glitches:
+You can get multiple returners, by desummoning them while your hero is stunned.

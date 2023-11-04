@@ -1,0 +1,21 @@
+Build:
+Trait: Acrobat
+Spec: Power Armor, Cybernetics, Energy Cells
+Talent: Running, Hacking
+
+Skill Build:
+1 Rocket, rest Nanites
+Max Nanites
+Max Organic Replacement
+Max Rockets
+Rest into XCM
+
+Borg is a high energy class that tanks in bursts pre-Nemesis, so Duo-Cells are the best pre-Nemesis items, with integrated MFGs and other spare regen.
+The 1st set of batteries the group gets should go into your inventory, or into your locker if you have 5 items + dotes.
+You can locker 2 sets of batteries early very reasonably. Be ready to pull them out for hard situations.
+The 1st Combat Vest should go to you. Upgrade to CV II ASAP
+You should receive the SCAP as the 1st top secret, unless Tech Ops is in the game and has an available Riot Shield User.
+Keep Pheromones charged at all times, ready to save the group, or for pushing through dangerous map mob.
+Be prepared to use Force Field to tank TNTs that can't be otherwise handled, or for extreme tanking in difficult situations.
+By Nemesis, you should have switched your inventory to CV II, SCAP, Pluses, and Batteries, and your locker should have 2 sets of locker batteries ready.
+Riot Shield should be used on you by 30-50 minutes.

@@ -1,0 +1,34 @@
+Build:
+Energizer, Energy Cells, Hacking, Heavy Armor
+
+Skill Build:
+1 Nano, 1 Mend, 1 Adrenaline Junkie
+10 Nanites
+4 Mend
+16 Nano, 19 Nanites
+Rest into Mend
+
+Guide:
+Turn Health bars on
+Use Mend to heal HP in normal situations
+Use Bandages for burst healing in dangerous situations
+Use Nano to heal people almost dead/emergencies
+Use Rapid Therapy to cure injuries, including Severe Injuries
+Use Revive skill to revive dead people ASAP
+Use Adrenaline on your teammate who has best gun, for DPS or for crowd control
+
+When Nano is high enough, it also cures non-severe injuries, and cures rez sickness.
+
+Medics avoid dying at all costs. Avoid taking hits, micro your attack so that you don't draw aggro.
+Adjust your level of early mend between 2-8, based on how much healing your group needs. 
+
+Item Priority:
+Dotes
+Bandages
+Batteries
+Gen
+Cap
+
+Medic functions best with at least 1500e cap and some extra regen. 
+At most, Medic needs to output 38 eps worth of healing (continuous mender + nano), not including burst reviving for 250e per hero.
+Medic healing comes in waves, not very constant, so cap and gen are both important to have, and batteries are key for burst healing situations.
