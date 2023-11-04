@@ -3,10 +3,12 @@ import os
 import re
 import discord
 import tabulate
+import class_call
 
 from discord.ext import commands
 from discord.ext.tasks import loop
 from dotenv import load_dotenv
+from class_call import ClassCall
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -16,84 +18,6 @@ TEST_SERVER_ID = os.getenv('TEST_SERVER_ID')
 SWAT_CC_CHANNEL = os.getenv('SWAT_CC_CHANNEL')
 TEST_CC_CHANNEL = os.getenv('TEST_CC_CHANNEL')
 
-GRID_HEADERS = ['position', 'name', 'class']
-ACCEPTABLE_FORMATS = ['default', 'grid']
-
-class ClassCall:
-    def __init__(self):
-        self.format = 'default'
-        self.leader = None
-        self.mode = None
-        self.lock = False
-        self.data = []
-        self.lock_timer = 900
-        self.time_since_last_call = 0
-        self.class_call_used = False
-        print("Class Call initialized")
-    def receive_call(self, name, match):
-        if self.lock is True:
-            return
-        position = match.group('position')
-        matched_name = match.group('name')
-        call = next(filter(lambda x: x['position'] == position, self.data), None)
-        if not call:
-            call = {}
-        else:
-            self.data.remove(call)
-        call['position'] = position
-        call['name'] = name
-        call['class'] = matched_name
-        if matched_name and not matched_name.isspace():
-            self.data.append(call)
-        self.class_call_used = True
-        self.time_since_last_call = 0
-        self.data.sort(key=lambda x: x['position'])
-    def import_cc(self, cc):
-        self.data = []
-        calls = cc.split('/')
-
-        try:
-            for index, call in enumerate(calls, start=1):
-                if call == '/':
-                    break
-                self.data.append({'position': index, 'name': '', 'class': call})
-        except:
-            return False
-        self.time_since_last_call = 0
-        self.class_call_used = True
-        return True
-    def set_format(self, input):
-        if input not in ACCEPTABLE_FORMATS:
-            return 'Unsupported format. Accepted formats are: {}'.format(ACCEPTABLE_FORMATS)
-        else:
-            self.format = input
-            return None
-    def export(self, format=None):
-        print('{}'.format(format))
-        format = self.format if not format else format
-        if format == 'default':
-            result = []
-            calls = []
-            if self.mode:
-                result.append('Mode: {},'.format(self.mode))
-            if self.leader:
-                result.append('Leader: {},'.format(self.leader))
-            for i in range(1, 10):
-                call = next(filter(lambda x: int(x['position']) == i, self.data), None)
-                if call:
-                    calls.append(call['class'] or call['position'])
-                else:
-                    calls.append(str(i))
-            call_seperator = '/'
-            result_seperator = ' '
-            result.append('Calls: {}'.format(call_seperator.join(calls)))
-            return result_seperator.join(result)
-        if format == 'grid':
-            rows = [x.values() for x in self.data]
-            return "```" + tabulate.tabulate(rows, GRID_HEADERS, tablefmt='grid') + "```"
-    def __str__(self):
-        return self.export()
-    
 cc_regex = '^(?P<position>[1-9])\s?[-]?\s?(?P<name>.*)$'
 bot = commands.Bot(command_prefix='!')
 class_call = ClassCall()
