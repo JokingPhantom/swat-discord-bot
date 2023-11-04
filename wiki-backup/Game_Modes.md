@@ -1,0 +1,5 @@
+1.  [Normal](Normal "wikilink")
+2.  [Hard](Hard "wikilink")
+3.  [Insane](Insane "wikilink")
+4.  [Nightmare](Nightmare "wikilink")
+5.  [Extinction](Extinction "wikilink")
