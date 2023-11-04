@@ -19,10 +19,9 @@ three valor points per hero until the valor pool is depleted.
 <!-- -->
 
 -   Rad bolt: The horror launches a long-range radiation bolt, dealing
-    1600 radiation damage. This skill has a cooldown, but can easily be
+    800 radiation damage. This skill has a cooldown, but can easily be
     used multiple times during a boss fight. Rad. Resistant heroes will
-    not be targeted by Rad bolt. In Nightmare, Extinction, and Survival, 
-    it deals 2400 radiation damage.
+    not be targeted by Rad bolt. 
 
 <!-- -->
 
@@ -42,6 +41,8 @@ On Extinction, the Horror will increase the radiation count to at least 42 + 2*u
 
 On Extinction, the Horror will spawn rad walkers during Blackout based on the following formula: 
 minimum(zombies_in_1600_range / 3, (udg_iPlayerCount-udg_RadResisters) * 4)
+
+On Extinction, the Horror Rad Bolt costs 20 mana to cast and deals 1200 radiation damage.
 
 The rad bolt skill will be used against a random player, even if the
 tank is doing a good job of holding aggro. Casting rad bolt breaks the
