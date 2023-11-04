@@ -8,7 +8,7 @@ from discord.ext.tasks import loop
 
 from class_call import ClassCall
 
-cc_regex = '^(?P<position>[1-9])\s?[-]?\s?(?P<name>.*)$'
+cc_regex = '^(?P<position>[1-9])\s?[-]?\s?(?P<name>[^\d].*)$'
 
 load_dotenv()
 SWAT_SERVER_ID = os.getenv('SWAT_SERVER_ID')
