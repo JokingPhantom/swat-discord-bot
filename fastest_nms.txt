@@ -1,4 +1,7 @@
 Fastest Nightmares:
+26:31, P220904, nm2022_09_09_1704 9man 26_31.w3g
+30:23, P220904, nm2022_09_09_1546 9man 30_23.w3g
+31:12, P220904, nm2022_09_09_1627 9man 31_12.w3g
 33:10, P210216, nm2021_03_13_1410 win 7man 33_10 P210216.w3g
 35:xx, B100206P1, http://redscull.com/forum/viewtopic.php?p=198201#198201
 36:37, P210619, nm2021_06_20_1912_win_9man_36_37_sho.w3g
