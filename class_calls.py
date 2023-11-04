@@ -140,5 +140,5 @@ class ClassCalls(commands.Cog):
             if (self.class_call.time_since_last_call >= self.class_call.lock_timer) and self.class_call.class_call_used and not self.class_call.lock:
                 self.class_call.lock = True
                 channel = self.bot.get_channel(int(SWAT_CC_CHANNEL_ID))
-                await channel.send('Class Call locked after {} seconds of inactivity.'.format(self.class_call.lock_timer))
+                # await channel.send('Class Call locked after {} seconds of inactivity.'.format(self.class_call.lock_timer))
         
