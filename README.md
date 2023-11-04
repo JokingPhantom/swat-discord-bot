@@ -13,5 +13,5 @@ alias restart-bot="kill \$(ps aux | grep '[s]watcc' | awk '{print \$2}') && pyth
 alias start-bot="python3 ~/swat-discord-bot/swatcc.py </dev/null &>/dev/null &"
 alias start-bot-debug="python3 ~/swat-discord-bot/swatcc.py"
 alias stop-bot="kill \$(ps aux | grep '[s]watcc' | awk '{print \$2}')"
-alias deploy="stop-bot && git fetch && git reset --hard origin/master && start-bot"
+alias deploy-bot="stop-bot && git fetch && git reset --hard origin/master && start-bot"
 ```
