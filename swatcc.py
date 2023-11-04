@@ -140,7 +140,7 @@ async def roll(ctx, *elements):
 async def set_lock_timer(ctx, input=None):
     global class_call
     if input:
-        class_call.lock_timer = int(input)
+        class_call.lock_timer = ingit(input)
         await ctx.send('Lock timer set to {}'.format(class_call.lock_timer))
     else:
         await ctx.send('Lock timer currently set to {}'.format(class_call.lock_timer))
@@ -155,13 +155,16 @@ async def on_message(message):
         return
 
     cc_match = re.match(cc_regex, message.content)
-    if cc_match and not class_call.lock:
-        if not class_call:
-            await message.channel.send('Class Call started')
-            class_call = ClassCall()
-            class_call.lock = False
-        class_call.receive_call(message.author.name, cc_match)
-        await message.channel.send(str(class_call))
+    if cc_match:
+        if not class_call.lock:
+            if not class_call:
+                await message.channel.send('Class Call started')
+                class_call = ClassCall()
+                class_call.lock = False
+            class_call.receive_call(message.author.name, cc_match)
+            await message.channel.send(str(class_call))
+        else:
+            await message.channel.send('Class Call locked.')
     await bot.process_commands(message)
 
 @loop(seconds=1)
@@ -172,7 +175,7 @@ async def auto_lock_cc():
         if (class_call.time_since_last_call >= class_call.lock_timer) and class_call.class_call_used and not class_call.lock:
             class_call.lock = True
             channel = bot.get_channel(int(SWAT_CC_CHANNEL_ID))
-            await channel.send('Class Call locked after {} seconds of inactivity.'.format(class_call.lock_timer))
+            # await channel.send('Class Call locked after {} seconds of inactivity.'.format(class_call.lock_timer))
 
 auto_lock_cc.start()
 bot.run(TOKEN)
