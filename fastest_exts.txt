@@ -3,9 +3,11 @@ Fastest EXT:
 63:38, P131227, http://www.redscull.com/forum/viewtopic.php?p=224243#224243
 64:22, P200130b, ext2020_02_08_1426 win 7man 64_22 s+k.w3g
 64:43, P131227, http://www.redscull.com/forum/viewtopic.php?p=224169#224169
+66:44, P220405, ext2022_07_24_1900 win 9man 66_44 sl spsy lad3 2mini2 1drop.w3g
 66:39, P131227, http://www.redscull.com/forum/viewtopic.php?p=224160#224160
 69:01, P180511, ext2019_02_09_0020 win 7man 69_01 acro sho.w3g
 72:01, P180511, ext2019_02_26_2103 win 8man 72_01 s+k lads.w3g
+72:30, P220405, ext2022_07_22_2158 win 9man 72_30 lead qm pr pyro lad3 2mini2.w3g
 72:33, P220405, ext2022_07_07_2103 win 9man 72_33 fc gs lad3 mini2 1drop.w3g
 72:46, P200412, ext2020_04_16_1613 win 9man 72_46 tech 2mini2.w3g
 73:17, P131227, http://www.redscull.com/forum/viewtopic.php?p=224156#224156
@@ -18,13 +20,14 @@ Fastest EXT:
 74:45, P200328, ext2020_03_29_2235 win 6man 74_45 cr tech 2mini2.w3g
 75:06, P180511, ext2019_02_23_1232 win 9man 75_06 tact cadet lads.w3g
 75:39, P180511, ext2019_02_21_2010 win 5man 75_39 tech.w3g
+76:09, P220405, ext2022_07_22_1624 win 9man 76_09 lead gadge pyro lad3 mini2.w3g
 77:53, P220405, ext2022_07_16_1733 win 9man 77_53 gadge gwm lad3 mini2.w3g
 77:xx, P130104, http://www.redscull.com/forum/viewtopic.php?p=219407#219407 
 77:xx, P131227, http://www.redscull.com/forum/viewtopic.php?p=224387#224387
 77:xx, P131227, http://www.redscull.com/forum/viewtopic.php?p=224401#224401
+78_08, P220405, ext2022_07_28_2142 win 9man 78_08 skilled gwm lad3 mini2.w3g
 78:40, P200528, ext2020_06_06_1757 win 9man 78_40 tech 2mini2 lead.w3g
 78:40, P200615, ext2020_07_15_1330 win 9man 78_40 surv tact.w3g
-78:42, P200528, ext2020_06_06_1757 win 9man 78_40 tech 2mini2 lead.w3g
 78:42, P200321EC, ext2020_03_23_2132 win 9man 78_42 tank CPU 3 mini2.w3g
 78:51, P210619, ext2021_06_26_2205 win 9man 78_51 fc spsy superslay 2lad 2mini2.w3g
 79:37, P200412, ext2020_04_18_1731 win 9man 79_37 tech 2mini2.w3g
