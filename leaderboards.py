@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from discord.ext import commands
 
 class Leaderboards(commands.Cog):

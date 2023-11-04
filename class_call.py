@@ -1,6 +1,10 @@
+#!/usr/bin/python
+
 # Class responsible for keeping track of a class call's information.
 # A class call contains information related to a game's setup, such as
 # players' classes, mode, leader, etc.
+import tabulate
+
 ACCEPTABLE_FORMATS = ['default', 'grid']
 GRID_HEADERS = ['position', 'name', 'class']
 
