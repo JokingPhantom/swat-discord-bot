@@ -1,6 +1,13 @@
 # swat-discord-bot
 Discord community bot for the Warcraft III custom game, SWAT: Aftermath
 
+Features:
+1. Class Call
+2. Misc chat commands
+3. Leaderboards
+4. Guides
+5. Wiki backup
+
 Requirements:
 1. pip
 2. discord.py
