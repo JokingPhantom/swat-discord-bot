@@ -71,7 +71,10 @@ class ClassCall:
                     calls.append(str(i))
             call_seperator = '/'
             result_seperator = ' '
-            result.append('Calls: {}'.format(call_seperator.join(calls)))
+            if result:
+                result.append('Calls: {}'.format(call_seperator.join(calls)))
+            else:
+                result.append(call_seperator.join(calls))
             return result_seperator.join(result)
         if format == 'grid':
             rows = [x.values() for x in self.data]
