@@ -1,4 +1,12 @@
 Scouting Guide
+Estimated Par Times to all solo objectives cleared:
+80 minutes, regular solo, no short scouts
+70 minutes, regular solo, no short scouts, group clears 20%
+60 minutes, regular solo, 1 short scout clears 20%, group clears 20%
+50 minutes, regular solo, 2 short scouts clear 40%, group clears 20%
+40 minutes, SHO, 2 short scout clears 30%, group clears 15%
+Horror spawns can delay rad clear by 2-10 minutes, depending on how much radiation is added.
+Red rad spawns and missed Sgargs can delay rad clear by spawning an additional rad.
 
 Rooms:
 84 total rooms on the map
