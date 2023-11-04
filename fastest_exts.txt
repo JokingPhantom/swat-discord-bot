@@ -18,6 +18,8 @@ Fastest EXT:
 73:56, P200523, ext2020_05_24_1655 win 7man 73_56 duobox skill tech goon pyro 2mini2.w3g
 74:00, P220405, ext2022_07_17_1940 win 9man 74_00 qm fc psy lad3 mini2.w3g
 74:06, P200912, ext2020_11_04_2211 win 7man 74_06 goon gwm lad3 2mini2.w3g
+74:09, P220405, ext2022_08_14 9man 74_09 xestus gho.w3g
+74:30, P220405, ext2022_08_13_1312 win 8man 74_30 duobox prowler tech packrat pyro 3lad 2mini2.w3g
 74:39, P210328, ext2021_04_12_1917 win 9man 74_39 gifted no espi sal lad3 mini2.w3g
 74:45, P200328, ext2020_03_29_2235 win 6man 74_45 cr tech 2mini2.w3g
 75:06, P180511, ext2019_02_23_1232 win 9man 75_06 tact cadet lads.w3g
