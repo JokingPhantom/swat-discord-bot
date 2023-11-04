@@ -152,7 +152,7 @@ async def on_message(message):
         return
     if not ((message.channel.name == TEST_CC_CHANNEL and str(message.guild.id) == TEST_SERVER_ID) or 
         (message.channel.name == SWAT_CC_CHANNEL and str(message.guild.id) == SWAT_SERVER_ID)):
-        return
+        return	
 
     cc_match = re.match(cc_regex, message.content)
     if cc_match:
@@ -166,6 +166,12 @@ async def on_message(message):
         else:
             await message.channel.send('Class Call locked.')
     await bot.process_commands(message)
+    
+@bot.command(name='leaderboard', help='Shows records of fastest Extinctions, Legendary Extinctions, and Nightmares. Ping Valcrist to update this list.')
+async def leaderboard(ctx, input=None):
+    f = open('fastest games.txt', 'r')
+    file_contents = f.read()
+    await ctx.send(file_contents)
 
 @loop(seconds=1)
 async def auto_lock_cc():
