@@ -1,6 +1,6 @@
 ## Horror
 
-*Horrors* increase the effective radiation count by 20 while they are
+*Horrors* increase the effective radiation count by 20+ while they are
 alive, and have roughly three times the armor of an Abomination. Only
 one Horror can be in play at a time (although multiple may spawn per
 game), and their chance of spawning is dependent on the radiation level
@@ -9,19 +9,20 @@ three valor points per hero until the valor pool is depleted.
 
 ## Skills
 
--   Blackout: This skill is a map-trigger that turns the screen black,
+-   Blackout/ Rad Wave: This skill is a map-trigger that turns the screen black,
     puts all biological units to sleep, and disrupts mechanical units.
     This can only be triggered as the horror spawns and/or as the horror
-    drops below 50% health. Sleep time occurs for 60 seconds (3 seconds
+    drops below 55% health. Sleep time occurs for 60 seconds (3 seconds
     if the hero is Rad. Resistant), but incurring any damage wakes from
-    sleep.
+    sleep. A fraction of all zombies within 1600 range are converted into rad walkers.
 
 <!-- -->
 
 -   Rad bolt: The horror launches a long-range radiation bolt, dealing
-    800 radiation damage. This skill has a cooldown, but can easily be
+    1600 radiation damage. This skill has a cooldown, but can easily be
     used multiple times during a boss fight. Rad. Resistant heroes will
-    not be targeted by Rad bolt.
+    not be targeted by Rad bolt. In Nightmare, Extinction, and Survival, 
+    it deals 2400 radiation damage.
 
 <!-- -->
 
@@ -34,7 +35,13 @@ three valor points per hero until the valor pool is depleted.
 
 ==<Notes:==> On Nightmare, Extinction, and Survival, Horrors will spawn
 with an escort of Radiating Grotesques (Gargoyles), effectively meaning
-they increase radiation count by around 25.
+they increase radiation count by at least 25.
+
+On Nightmare, the Horror will increase the radiation count to at least 40.
+On Extinction, the Horror will increase the radiation count to at least 42 + 2*udg_iPlayerCount.
+
+On Extinction, the Horror will spawn rad walkers during Blackout based on the following formula: 
+minimum(zombies_in_1600_range / 3, (udg_iPlayerCount-udg_RadResisters) * 4)
 
 The rad bolt skill will be used against a random player, even if the
 tank is doing a good job of holding aggro. Casting rad bolt breaks the
