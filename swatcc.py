@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from leaderboards import Leaderboards
 from info import Info
 from class_calls import ClassCalls
+from guides import Guides
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -57,5 +58,5 @@ async def roll(ctx, target):
 bot.add_cog(Leaderboards(bot))
 bot.add_cog(Info(bot))
 bot.add_cog(ClassCalls(bot))
+bot.add_cog(Guides(bot))
 bot.run(TOKEN)
-
