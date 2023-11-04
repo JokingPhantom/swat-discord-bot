@@ -1,5 +1,5 @@
 Fastest EXT:
-Valcrist77 14/18
+Valcrist77 16/20
 
 63:38, P131227, http://www.redscull.com/forum/viewtopic.php?p=224243#224243
 64:22, P200130b, ext2020_02_08_1426 win 7man 64_22 s+k.w3g
@@ -16,6 +16,8 @@ Valcrist77 14/18
 77:xx, P130104, http://www.redscull.com/forum/viewtopic.php?p=219407#219407 
 77:xx, P131227, http://www.redscull.com/forum/viewtopic.php?p=224387#224387
 77:xx, P131227, http://www.redscull.com/forum/viewtopic.php?p=224401#224401
+78:40, P200528, ext2020_06_06_1757 win 9man 78_40 tech 2mini2 lead.w3g
+78:40, P200615, ext2020_07_15_1330 win 9man 78_40 surv tact.w3g
 78:42, P200528, ext2020_06_06_1757 win 9man 78_40 tech 2mini2 lead.w3g
 78:42, P200321EC, ext2020_03_23_2132 win 9man 78_42 tank CPU 3 mini2.w3g
 79:37, P200412, ext2020_04_18_1731 win 9man 79_37 tech 2mini2.w3g
