@@ -31,7 +31,7 @@ class ClassCall:
             self.data.remove(call)
         call['position'] = position
         call['name'] = name
-        call['class'] = matched_name.replace('/', '')[0:50]
+        call['class'] = matched_name.replace('/', '')[0:50].strip()
         if matched_name and not matched_name.isspace():
             self.data.append(call)
         self.class_call_used = True
