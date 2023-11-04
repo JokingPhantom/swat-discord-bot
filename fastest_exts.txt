@@ -22,5 +22,6 @@ Fastest EXT:
 78:40, P200615, ext2020_07_15_1330 win 9man 78_40 surv tact.w3g
 78:42, P200528, ext2020_06_06_1757 win 9man 78_40 tech 2mini2 lead.w3g
 78:42, P200321EC, ext2020_03_23_2132 win 9man 78_42 tank CPU 3 mini2.w3g
+78:51, P210619, ext2021_06_26_2205 win 9man 78_51 fc spsy superslay 2lad 2mini2.w3g
 79:37, P200412, ext2020_04_18_1731 win 9man 79_37 tech 2mini2.w3g
 79:43, P210328, ext2021_04_07_1447 win 9man 79_43 duobox gadge s+m healer pyro.w3g
