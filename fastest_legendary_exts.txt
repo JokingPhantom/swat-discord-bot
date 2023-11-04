@@ -7,6 +7,7 @@ Fastest Legendary EXT:
 73:25, P200419b, ext2020_05_19_2100_win_6man_legendary_73_25_goon_tech_2mini2.w3g
 73:36, P200528, ext2020_05_31_1834 win 9man legendary 73_36 sl gho.w3g
 74:06, P220405, ext2022_07_30_1913 win 9man 74_06 legendary gizer smed lad3 2mini2.w3g
+76:00, P230112, ext2023_01_25_1419 win 7man 76_00 legendary fc tech 3lad 2mini2 1drop.w3g
 76:27, P180511, ext2019_02_17 win 6man legendary 76_27 tact cadet lads.w3g
 76:39-42ish, P180511, ext2018_06_27_2111 76_57 game timer legendary win pr tech.w3g
 76:44, P220405, ext2022_07_18_1322 win 9man 76_44 legendary duobox engi gal skilled pyro lad3 mini2.w3g
