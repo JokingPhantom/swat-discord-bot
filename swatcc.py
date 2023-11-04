@@ -23,7 +23,7 @@ cc_regex = '^(?P<position>[1-9])\s?[-]?\s?(?P<name>.*)$'
 bot = commands.Bot(command_prefix='!')
 class_call = ClassCall()
 
-roll_list = ['acro borg', 'sborg', 'x+k', 'solo x+k', 'x+m', 'gal', 'sal', 'tech', 'stech', 'pyro', 'hpsy', 'spsy', 'htact', 'tact', 'stact', 'gho', 'sho', 'gs', 'ss', 'qmed', 'bmed', 'demo', 'sdemo', 'gwm', 'fcwm', 'swm']
+roll_list = ['acro borg', 'sborg', 'x+k', 'solo x+k', 'x+m', 'gal', 'sal', 'tech', 'stech', 'pyro', 'hpsy', 'spsy', 'htact', 'tact', 'stact', 'gho', 'sho', 'gs', 'fcgs', 'ss', 'qmed', 'bmed', 'demo', 'sdemo', 'gwm', 'fcwm', 'swm']
 
 @bot.event
 async def on_ready():
