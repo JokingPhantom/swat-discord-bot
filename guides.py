@@ -18,15 +18,22 @@ class Guides(commands.Cog):
             await ctx.send('No guide found for {}'.format(name))
         else:
             result = ''
+            lines_read = 0
+            total_lines = 0
+            done_reading = False
+            last_line_read = None
             for i, line in enumerate(fp):
-                if start <= i:
-                    if len(result) + len(line) < 1980:
+                total_lines += 1
+                if start <= i and done_reading == False:
+                    if len(result) + len(line) < 1960:
+                        lines_read += 1
                         result += line
                     else:
-                        line_count = len(fp.readlines())
-                        entry = f'{line_count - i} more lines...'
-                        result += entry
-                        break
+                        last_line_read = i
+                        done_reading = True
+            if done_reading == True:
+                entry = f'{lines_read} lines read, {total_lines - last_line_read} more lines...'
+                result += entry
             await ctx.send(result)
 
     @commands.command(name='list_guides', aliases=['list_guide'], help='Show all available guides that can be displayed. !guide guide_name will display the contents of the guide.')
