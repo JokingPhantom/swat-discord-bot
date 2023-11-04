@@ -167,9 +167,9 @@ async def on_message(message):
             await message.channel.send('Class Call locked.')
     await bot.process_commands(message)
     
-@bot.command(name='leaderboard', help='Shows records of fastest Extinctions, Legendary Extinctions, and Nightmares. Ping Valcrist to update this list.')
-async def leaderboard(ctx, input=None):
-    f = open('fastest games.txt', 'r')
+@bot.command(name='leaderboard', help='Shows records of fastest Extinctions, Legendary Extinctions, and Nightmares. Valid names are: exts, legendary_exts, nms. Ping Valcrist to update this list.')
+async def leaderboard(ctx, name):
+    f = open(''.join(['fastest_', name, '.txt']), 'r')
     file_contents = f.read()
     await ctx.send(file_contents)
 
