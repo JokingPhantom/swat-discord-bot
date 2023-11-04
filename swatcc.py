@@ -9,6 +9,7 @@ from leaderboards import Leaderboards
 from info import Info
 from class_calls import ClassCalls
 from guides import Guides
+from nemesis_taunt import NemesisTaunt
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -59,4 +60,5 @@ bot.add_cog(Leaderboards(bot))
 bot.add_cog(Info(bot))
 bot.add_cog(ClassCalls(bot))
 bot.add_cog(Guides(bot))
+bot.add_cog(NemesisTaunt(bot))
 bot.run(TOKEN)
