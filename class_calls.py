@@ -150,6 +150,10 @@ class ClassCalls(commands.Cog):
         if (not self.__validate_swap_slot(slots[0])) or (not self.__validate_swap_slot(slots[1])):
             return
 
+        if self.class_call.lock:
+            await ctx.send('Class Call locked.')
+            return
+
         first_slot = slots[0]
 
         second_slot = slots[1]
