@@ -45,13 +45,13 @@ class ClassCalls(commands.Cog):
     async def stop_cc(self, ctx):
         self.class_call = None
         await ctx.send('Class Call stopped')
-        
+
     @commands.command(name='set_format', help='Set format the Class Call is output in. Possible formats: default, grid')
     async def set_format(self, ctx, format):
         self.class_call.time_since_last_call = 0
         error_message = self.class_call.set_format(format)
         await ctx.send(error_message or 'Set format to {}'.format(format))
-        
+
     @commands.command(name='import_cc', help='Imports a Class Call. Only supports the default format. Multiple blank space characters are squashed into one.')
     async def import_cc(self, ctx, *cc):
         if not self.class_call:
@@ -82,7 +82,7 @@ class ClassCalls(commands.Cog):
             await ctx.send('Mode set to {}'.format(self.class_call.mode))
         else:
             await ctx.send('Mode currently set to {}'.format(self.class_call.mode))
-        
+
     @commands.command(name='leader', help='Set the leader. Accepts a string representing the leader declared.')
     async def leader(self, ctx, input=None):
         self.class_call.time_since_last_call = 0
@@ -141,4 +141,28 @@ class ClassCalls(commands.Cog):
                 self.class_call.lock = True
                 channel = self.bot.get_channel(int(SWAT_CC_CHANNEL_ID))
                 # await channel.send('Class Call locked after {} seconds of inactivity.'.format(self.class_call.lock_timer))
-        
+
+    @commands.command(name='swap', help='Swaps the position of two classes in the class call. Example, !swap 1 9')
+    async def swap(self, ctx, *slots):
+        if (len(slots)) != 2:
+            return
+
+        if (not self.__validate_swap_slot(slots[0])) or (not self.__validate_swap_slot(slots[1])):
+            return
+
+        first_slot = slots[0]
+
+        second_slot = slots[1]
+
+        old = self.class_call.data[first_slot]
+
+        self.class_call.data[first_slot] = self.class_call.data[second_slot]
+
+        self.class_call.data[second_slot] = old
+
+        await ctx.send('Swapped slots {} and {}'.format(first_slot, second_slot))
+        await ctx.send(str(self.class_call))
+
+    @staticmethod
+    def __validate_swap_slot(slot) -> bool:
+        return isinstance(slot, int) and 0 < slot < 10
