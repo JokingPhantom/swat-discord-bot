@@ -173,4 +173,7 @@ class ClassCalls(commands.Cog):
 
     @staticmethod
     def __validate_swap_slot(slot) -> bool:
+        print('validating slot [ {} ]'.format(slot))
+        print('slot is int: {}'.format(isinstance(slot, int)))
+        print('slot is in range: {}'.format(0 < slot < 10))
         return isinstance(slot, int) and 0 < slot < 10
