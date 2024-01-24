@@ -161,7 +161,7 @@ class ClassCalls(commands.Cog):
             await ctx.send('Class Call locked.')
             return
 
-        print('class call pre-swap: {}'.format(str(self.class_call)))
+        print('class call pre-swap: {}'.format(self.class_call.data))
         first_slot = int(slots[0])
 
         second_slot = int(slots[1])
@@ -178,7 +178,7 @@ class ClassCalls(commands.Cog):
 
         self.class_call.data.sort(key=lambda x: x['position'])
 
-        print('class call post-swap: {}'.format(str(self.class_call)))
+        print('class call post-swap: {}'.format(self.class_call.data))
 
         await ctx.send('Swapped slots {} and {}'.format(first_slot, second_slot))
         await ctx.send(str(self.class_call))
