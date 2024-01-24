@@ -19,6 +19,7 @@ class ClassCall:
         self.time_since_last_call = 0
         self.class_call_used = False
         print("Class Call initialized")
+
     def receive_call(self, name, match):
         if self.lock is True:
             return
@@ -37,13 +38,19 @@ class ClassCall:
         self.class_call_used = True
         self.time_since_last_call = 0
         self.data.sort(key=lambda x: x['position'])
+
     def swap(self, pos1, pos2):
         call1 = next(filter(lambda x: x['position'] == pos1, self.data), None)
         call2 = next(filter(lambda x: x['position'] == pos2, self.data), None)
         if call1 and call2:
             call1['position'] = pos2
             call2['position'] = pos1
+        elif call1:
+            call1['position'] = pos2
+        elif call2:
+            call2['position'] = pos1
         self.data.sort(key=lambda x: x['position'])
+
     def import_cc(self, cc):
         self.data = []
         calls = cc.split('/')
@@ -58,12 +65,14 @@ class ClassCall:
         self.time_since_last_call = 0
         self.class_call_used = True
         return True
+
     def set_format(self, input):
         if input not in ACCEPTABLE_FORMATS:
             return 'Unsupported format. Accepted formats are: {}'.format(ACCEPTABLE_FORMATS)
         else:
             self.format = input
             return None
+
     def export(self, format=None):
         print('{}'.format(format))
         format = self.format if not format else format
@@ -90,6 +99,7 @@ class ClassCall:
         if format == 'grid':
             rows = [x.values() for x in self.data]
             return "```" + tabulate.tabulate(rows, GRID_HEADERS, tablefmt='grid') + "```"
+
     def __str__(self):
         return self.export()
     
