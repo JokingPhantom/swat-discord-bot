@@ -162,9 +162,9 @@ class ClassCalls(commands.Cog):
             return
 
         print('class call pre-swap: {}'.format(self.class_call.data))
-        first_slot = int(slots[0])
+        first_slot = slots[0]
 
-        second_slot = int(slots[1])
+        second_slot = slots[1]
 
         first: Dict[str, str] = next(filter(lambda x: x['position'] == first_slot, self.class_call.data), None)
 
@@ -175,10 +175,10 @@ class ClassCalls(commands.Cog):
         print('second slot: {}'.format(second))
 
         if first is not None:
-            first['position'] = str(second_slot)
+            first['position'] = second_slot
 
         if second is not None:
-            second['position'] = str(first_slot)
+            second['position'] = first_slot
 
         print('first slot post swap: {}'.format(first))
 
