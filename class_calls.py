@@ -76,8 +76,11 @@ class ClassCalls(commands.Cog):
 
     @commands.command(name='swap', help='Swaps the position of 2 calls.')
     async def swap(self, ctx, *slots):
-        self.class_call.swap(slots[0], slots[1])
-        await ctx.send(str(self.class_call))
+        if len(slots) == 2 and all(re.match('^[1-9]$', slot) for slot in slots):
+            self.class_call.swap(slots[0], slots[1])
+            await ctx.send(str(self.class_call))
+        else:
+            await ctx.send('Invalid swap positions. Provide 2 positions between 1 and 9.')
 
     @commands.command(name='mode', help='Set the mode. Accepts a string representing the mode declared.')
     async def mode(self, ctx, input=None):
