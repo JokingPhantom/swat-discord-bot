@@ -161,32 +161,15 @@ class ClassCalls(commands.Cog):
             await ctx.send('Class Call locked.')
             return
 
-        print('class call pre-swap: {}'.format(self.class_call.data))
         first_slot = slots[0]
 
         second_slot = slots[1]
 
-        first: Dict[str, str] = next(filter(lambda x: x['position'] == first_slot, self.class_call.data), None)
+        self.__swap(first_slot, second_slot)
 
-        second: Dict[str, str] = next(filter(lambda x: x['position'] == second_slot, self.class_call.data), None)
-
-        print('first slot: {}'.format(first))
-
-        print('second slot: {}'.format(second))
-
-        if first is not None:
-            first['position'] = second_slot
-
-        if second is not None:
-            second['position'] = first_slot
-
-        print('first slot post swap: {}'.format(first))
-
-        print('second slot post swap: {}'.format(second))
+        self.__swap(second_slot, first_slot)
 
         self.class_call.data.sort(key=lambda x: x['position'])
-
-        print('class call post-swap: {}'.format(self.class_call.data))
 
         await ctx.send('Swapped slots {} and {}'.format(first_slot, second_slot))
         await ctx.send(str(self.class_call))
@@ -198,3 +181,12 @@ class ClassCalls(commands.Cog):
             return 0 < slot_number < 10
         except ValueError:
             return False
+
+    def __find_position(self, position: str) -> Dict[str, str]:
+        return next(filter(lambda x: x['position'] == position, self.class_call.data), None)
+
+    def __swap(self, current: str, new: str):
+        call: Dict[str, str] = self.__find_position(current)
+
+        if call is not None:
+            call['position'] = new
