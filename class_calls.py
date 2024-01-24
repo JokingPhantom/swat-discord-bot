@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import os
 import re
+from typing import Dict
 
 from dotenv import load_dotenv
 from discord.ext import commands
@@ -16,6 +17,7 @@ SWAT_CC_CHANNEL_ID = os.getenv('SWAT_CC_CHANNEL_ID')
 TEST_SERVER_ID = os.getenv('TEST_SERVER_ID')
 SWAT_CC_CHANNEL = os.getenv('SWAT_CC_CHANNEL')
 TEST_CC_CHANNEL = os.getenv('TEST_CC_CHANNEL')
+
 
 class ClassCalls(commands.Cog):
     def __init__(self, bot):
@@ -52,7 +54,8 @@ class ClassCalls(commands.Cog):
         error_message = self.class_call.set_format(format)
         await ctx.send(error_message or 'Set format to {}'.format(format))
 
-    @commands.command(name='import_cc', help='Imports a Class Call. Only supports the default format. Multiple blank space characters are squashed into one.')
+    @commands.command(name='import_cc',
+                      help='Imports a Class Call. Only supports the default format. Multiple blank space characters are squashed into one.')
     async def import_cc(self, ctx, *cc):
         if not self.class_call:
             await ctx.send('Class Call started')
@@ -64,7 +67,8 @@ class ClassCalls(commands.Cog):
         else:
             await ctx.send('Invalid format, preserving original Class Call')
 
-    @commands.command(name='close', help='Close all slots listed by marking the call with a "-". Slots are listed by number, separated by spaces.')
+    @commands.command(name='close',
+                      help='Close all slots listed by marking the call with a "-". Slots are listed by number, separated by spaces.')
     async def close(self, ctx, *slots):
         for slot in slots:
             call = '{} --'.format(slot)
@@ -104,7 +108,8 @@ class ClassCalls(commands.Cog):
         self.class_call.lock = False
         await ctx.send('Class call unlocked.')
 
-    @commands.command(name='set_lock_timer', help='Sets the inactivity period until the class call is automatically locked, in seconds.')
+    @commands.command(name='set_lock_timer',
+                      help='Sets the inactivity period until the class call is automatically locked, in seconds.')
     async def set_lock_timer(self, ctx, input=None):
         if input:
             self.class_call.lock_timer = int(input)
@@ -116,9 +121,9 @@ class ClassCalls(commands.Cog):
     async def on_message(self, message):
         if message.author == self.bot.user:
             return
-        if not ((message.channel.name == TEST_CC_CHANNEL and str(message.guild.id) == TEST_SERVER_ID) or 
-            (message.channel.name == SWAT_CC_CHANNEL and str(message.guild.id) == SWAT_SERVER_ID)):
-            return	
+        if not ((message.channel.name == TEST_CC_CHANNEL and str(message.guild.id) == TEST_SERVER_ID) or
+                (message.channel.name == SWAT_CC_CHANNEL and str(message.guild.id) == SWAT_SERVER_ID)):
+            return
 
         cc_match = re.match(cc_regex, message.content)
         if cc_match:
@@ -137,47 +142,48 @@ class ClassCalls(commands.Cog):
         await self.bot.wait_until_ready()
         if self.class_call:
             self.class_call.time_since_last_call += 1
-            if (self.class_call.time_since_last_call >= self.class_call.lock_timer) and self.class_call.class_call_used and not self.class_call.lock:
+            if ((self.class_call.time_since_last_call >= self.class_call.lock_timer) and
+                    self.class_call.class_call_used and
+                    not self.class_call.lock):
                 self.class_call.lock = True
                 channel = self.bot.get_channel(int(SWAT_CC_CHANNEL_ID))
                 # await channel.send('Class Call locked after {} seconds of inactivity.'.format(self.class_call.lock_timer))
 
     @commands.command(name='swap', help='Swaps the position of two classes in the class call. Example, !swap 1 9')
     async def swap(self, ctx, *slots: str):
-        print('swapping')
         if (len(slots)) != 2:
             return
 
-        print('swapping has 2 numbers')
         if (not self.__validate_swap_slot(slots[0])) or (not self.__validate_swap_slot(slots[1])):
             return
 
-        print('swapping numbers are valid range')
         if self.class_call.lock:
             await ctx.send('Class Call locked.')
             return
 
-        print('class call is not locked, swapping')
-        first_slot = int(slots[0]) - 1
+        first_slot = int(slots[0])
 
-        second_slot = int(slots[1]) - 1
+        second_slot = int(slots[1])
 
-        old = self.class_call.data[first_slot]
+        first: Dict[str, str] = next(filter(lambda x: x['position'] == first_slot, self.class_call.data), None)
 
-        self.class_call.data[first_slot] = self.class_call.data[second_slot]
+        second: Dict[str, str] = next(filter(lambda x: x['position'] == second_slot, self.class_call.data), None)
 
-        self.class_call.data[second_slot] = old
+        if first is not None:
+            first['position'] = str(second_slot)
+
+        if second is not None:
+            second['position'] = str(first_slot)
+
+        self.class_call.data.sort(key=lambda x: x['position'])
 
         await ctx.send('Swapped slots {} and {}'.format(first_slot, second_slot))
         await ctx.send(str(self.class_call))
 
     @staticmethod
     def __validate_swap_slot(slot: str) -> bool:
-        print('validating slot [ {} ]'.format(slot))
         try:
             slot_number = int(slot)
-            print('slot is int')
-            print('slot is in range: {}'.format(0 < slot_number < 10))
             return 0 < slot_number < 10
         except ValueError:
             return False

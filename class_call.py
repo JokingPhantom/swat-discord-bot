@@ -4,6 +4,7 @@
 # A class call contains information related to a game's setup, such as
 # players' classes, mode, leader, etc.
 import tabulate
+from typing import List, Dict
 
 ACCEPTABLE_FORMATS = ['default', 'grid']
 GRID_HEADERS = ['position', 'name', 'class']
@@ -14,7 +15,7 @@ class ClassCall:
         self.leader = None
         self.mode = None
         self.lock = False
-        self.data = []
+        self.data: List[Dict[str, str]] = []
         self.lock_timer = 900
         self.time_since_last_call = 0
         self.class_call_used = False
