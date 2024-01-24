@@ -170,11 +170,19 @@ class ClassCalls(commands.Cog):
 
         second: Dict[str, str] = next(filter(lambda x: x['position'] == second_slot, self.class_call.data), None)
 
+        print('first slot: {}'.format(first))
+
+        print('second slot: {}'.format(second))
+
         if first is not None:
             first['position'] = str(second_slot)
 
         if second is not None:
             second['position'] = str(first_slot)
+
+        print('first slot post swap: {}'.format(first))
+
+        print('second slot post swap: {}'.format(second))
 
         self.class_call.data.sort(key=lambda x: x['position'])
 
