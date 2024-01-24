@@ -37,6 +37,12 @@ class ClassCall:
         self.class_call_used = True
         self.time_since_last_call = 0
         self.data.sort(key=lambda x: x['position'])
+    def swap(self, pos1, pos2):
+        call1 = next(filter(lambda x: x['position'] == pos1, self.data), None)
+        call2 = next(filter(lambda x: x['position'] == pos2, self.data), None)
+        if call1 and call2:
+            call1['position'] = pos2
+            call2['position'] = pos1
     def import_cc(self, cc):
         self.data = []
         calls = cc.split('/')

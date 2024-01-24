@@ -74,6 +74,11 @@ class ClassCalls(commands.Cog):
         await ctx.send('Closed slots {}'.format(" ".join(slots)))
         await ctx.send(str(self.class_call))
 
+    @commands.command(name='swap', help='Swaps the position of 2 calls.')
+    async def swap(self, ctx, *slots):
+        self.class_call.swap(slots[0], slots[1])
+        await ctx.send(str(self.class_call))
+
     @commands.command(name='mode', help='Set the mode. Accepts a string representing the mode declared.')
     async def mode(self, ctx, input=None):
         self.class_call.time_since_last_call = 0
