@@ -43,6 +43,7 @@ class ClassCall:
         if call1 and call2:
             call1['position'] = pos2
             call2['position'] = pos1
+        self.data.sort(key=lambda x: x['position'])
     def import_cc(self, cc):
         self.data = []
         calls = cc.split('/')
