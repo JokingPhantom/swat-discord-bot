@@ -144,16 +144,20 @@ class ClassCalls(commands.Cog):
 
     @commands.command(name='swap', help='Swaps the position of two classes in the class call. Example, !swap 1 9')
     async def swap(self, ctx, *slots):
+        print('swapping')
         if (len(slots)) != 2:
             return
 
+        print('swapping has 2 numbers')
         if (not self.__validate_swap_slot(slots[0])) or (not self.__validate_swap_slot(slots[1])):
             return
 
+        print('swapping numbers are valid range')
         if self.class_call.lock:
             await ctx.send('Class Call locked.')
             return
 
+        print('class call is not locked, swapping')
         first_slot = slots[0]
 
         second_slot = slots[1]
