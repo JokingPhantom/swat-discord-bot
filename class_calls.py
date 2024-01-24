@@ -143,7 +143,7 @@ class ClassCalls(commands.Cog):
                 # await channel.send('Class Call locked after {} seconds of inactivity.'.format(self.class_call.lock_timer))
 
     @commands.command(name='swap', help='Swaps the position of two classes in the class call. Example, !swap 1 9')
-    async def swap(self, ctx, *slots):
+    async def swap(self, ctx, *slots: str):
         print('swapping')
         if (len(slots)) != 2:
             return
@@ -158,9 +158,9 @@ class ClassCalls(commands.Cog):
             return
 
         print('class call is not locked, swapping')
-        first_slot = slots[0]
+        first_slot = int(slots[0])
 
-        second_slot = slots[1]
+        second_slot = int(slots[1])
 
         old = self.class_call.data[first_slot]
 
@@ -172,7 +172,7 @@ class ClassCalls(commands.Cog):
         await ctx.send(str(self.class_call))
 
     @staticmethod
-    def __validate_swap_slot(slot) -> bool:
+    def __validate_swap_slot(slot: str) -> bool:
         print('validating slot [ {} ]'.format(slot))
         try:
             slot_number = int(slot)
