@@ -158,9 +158,9 @@ class ClassCalls(commands.Cog):
             return
 
         print('class call is not locked, swapping')
-        first_slot = int(slots[0])
+        first_slot = int(slots[0]) - 1
 
-        second_slot = int(slots[1])
+        second_slot = int(slots[1]) - 1
 
         old = self.class_call.data[first_slot]
 
