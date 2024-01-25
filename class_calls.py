@@ -17,6 +17,7 @@ TEST_SERVER_ID = os.getenv('TEST_SERVER_ID')
 SWAT_CC_CHANNEL = os.getenv('SWAT_CC_CHANNEL')
 TEST_CC_CHANNEL = os.getenv('TEST_CC_CHANNEL')
 
+
 class ClassCalls(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -45,13 +46,13 @@ class ClassCalls(commands.Cog):
     async def stop_cc(self, ctx):
         self.class_call = None
         await ctx.send('Class Call stopped')
-        
+
     @commands.command(name='set_format', help='Set format the Class Call is output in. Possible formats: default, grid')
     async def set_format(self, ctx, format):
         self.class_call.time_since_last_call = 0
         error_message = self.class_call.set_format(format)
         await ctx.send(error_message or 'Set format to {}'.format(format))
-        
+
     @commands.command(name='import_cc', help='Imports a Class Call. Only supports the default format. Multiple blank space characters are squashed into one.')
     async def import_cc(self, ctx, *cc):
         if not self.class_call:
@@ -90,7 +91,7 @@ class ClassCalls(commands.Cog):
             await ctx.send('Mode set to {}'.format(self.class_call.mode))
         else:
             await ctx.send('Mode currently set to {}'.format(self.class_call.mode))
-        
+
     @commands.command(name='leader', help='Set the leader. Accepts a string representing the leader declared.')
     async def leader(self, ctx, input=None):
         self.class_call.time_since_last_call = 0
@@ -124,9 +125,9 @@ class ClassCalls(commands.Cog):
     async def on_message(self, message):
         if message.author == self.bot.user:
             return
-        if not ((message.channel.name == TEST_CC_CHANNEL and str(message.guild.id) == TEST_SERVER_ID) or 
-            (message.channel.name == SWAT_CC_CHANNEL and str(message.guild.id) == SWAT_SERVER_ID)):
-            return	
+        if not ((message.channel.name == TEST_CC_CHANNEL and str(message.guild.id) == TEST_SERVER_ID) or
+                (message.channel.name == SWAT_CC_CHANNEL and str(message.guild.id) == SWAT_SERVER_ID)):
+            return
 
         cc_match = re.match(cc_regex, message.content)
         if cc_match:
@@ -149,4 +150,3 @@ class ClassCalls(commands.Cog):
                 self.class_call.lock = True
                 channel = self.bot.get_channel(int(SWAT_CC_CHANNEL_ID))
                 # await channel.send('Class Call locked after {} seconds of inactivity.'.format(self.class_call.lock_timer))
-        

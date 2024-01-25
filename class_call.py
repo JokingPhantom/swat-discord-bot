@@ -8,6 +8,7 @@ import tabulate
 ACCEPTABLE_FORMATS = ['default', 'grid']
 GRID_HEADERS = ['position', 'name', 'class']
 
+
 class ClassCall:
     def __init__(self):
         self.format = 'default'
@@ -25,7 +26,8 @@ class ClassCall:
             return
         position = match.group('position')
         matched_name = match.group('name')
-        call = next(filter(lambda x: x['position'] == position, self.data), None)
+        call = next(filter(lambda x: x['position']
+                    == position, self.data), None)
         if not call:
             call = {}
         else:
@@ -59,7 +61,8 @@ class ClassCall:
             for index, call in enumerate(calls, start=1):
                 if call == '/':
                     break
-                self.data.append({'position': index, 'name': '', 'class': call})
+                self.data.append(
+                    {'position': index, 'name': '', 'class': call})
         except:
             return False
         self.time_since_last_call = 0
@@ -84,7 +87,8 @@ class ClassCall:
             if self.leader:
                 result.append('Leader: {},'.format(self.leader))
             for i in range(1, 10):
-                call = next(filter(lambda x: int(x['position']) == i, self.data), None)
+                call = next(filter(lambda x: int(
+                    x['position']) == i, self.data), None)
                 if call:
                     calls.append(call['class'] or call['position'])
                 else:
@@ -102,4 +106,3 @@ class ClassCall:
 
     def __str__(self):
         return self.export()
-    

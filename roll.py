@@ -140,6 +140,7 @@ SLAP_LIST = [
     '{author} tried to slap {target} but missed. Clumsy!',
 ]
 
+
 class Roll(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -168,9 +169,7 @@ class Roll(commands.Cog):
         sample = random.sample(list, 1)[0]
         await ctx.send(str(sample))
 
-
     @commands.command(name='slap', help='Slap someone with a random object')
     async def slap(self, ctx, target):
         sample = random.sample(SLAP_LIST, 1)[0]
-        await ctx.send(sample.format(author = ctx.author, target = target))
-
+        await ctx.send(sample.format(author=ctx.author, target=target))

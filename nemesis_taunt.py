@@ -41,6 +41,7 @@ NEMESIS_REINFORCEMENT_TAUNT_LIST = [
     'Requesting aid...',
 ]
 
+
 class NemesisTaunt(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -49,4 +50,3 @@ class NemesisTaunt(commands.Cog):
     async def nemesis_taunt(self, ctx):
         sample = random.sample(NEMESIS_TAUNT_LIST, 1)[0]
         await ctx.send(sample)
-
