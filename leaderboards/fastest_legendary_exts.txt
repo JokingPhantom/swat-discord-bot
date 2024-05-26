@@ -1,6 +1,7 @@
 Fastest Legendary EXT:
 69:45, P180511, 190222ext_graveyard_or_death_1hr9m 1.30.4.w3g
 69:58, P131227, http://www.redscull.com/forum/viewtopic.php?p=223129#223129
+70:10, P230715, ext2024_05_26_1550 win 6man 70_10 legendary qm psy lad3.w3g
 70:45, P200912, ext2020_10_04_2032 win 9man legendary 70_45 fc tech 2mini2.w3g
 71:14, P230112, ext2023_03_04_1755 win 9man 71_14 legendary engi ss lad3 mini2.w3g
 71:46, P210328, ext2021_04_11_1048 win 9man legendary 71_46 fc tech 2mini2.w3g
