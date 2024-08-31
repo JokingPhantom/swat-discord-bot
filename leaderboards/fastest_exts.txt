@@ -33,6 +33,7 @@ Fastest EXT:
 75:39, P180511, ext2019_02_21_2010 win 5man 75_39 tech.w3g
 76:09, P220405, ext2022_07_22_1624 win 9man 76_09 lead gadge pyro lad3 mini2.w3g
 77:53, P220405, ext2022_07_16_1733 win 9man 77_53 gadge gwm lad3 mini2.w3g
+77:57, P240803, ext2024_08_30_1411 win 7man 77_57 duobox tech pyro 3lad 2mini2.w3g
 77:xx, P130104, http://www.redscull.com/forum/viewtopic.php?p=219407#219407 
 77:xx, P131227, http://www.redscull.com/forum/viewtopic.php?p=224387#224387
 77:xx, P131227, http://www.redscull.com/forum/viewtopic.php?p=224401#224401
