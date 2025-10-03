@@ -9,6 +9,7 @@ Fastest EXT:
 66:44, P220405, ext2022_07_24_1900 win 9man 66_44 sl spsy lad3 2mini2 1drop.w3g
 66:39, P131227, http://www.redscull.com/forum/viewtopic.php?p=224160#224160
 69:01, P180511, ext2019_02_09_0020 win 7man 69_01 acro sho.w3g
+69:54, P241127, ext2025_10_03_1405 9man win 69_54 gc gal lad3 mini2 lead.w3g
 70:37, P220405, ext2022_08_09_1914_win_9man_70_37_surv_tech_3lad_2mini2.w3g
 70:48, P220825, ext2022_08_29_1738 win 9man 70_48 acro s+k lad3 mini2.w3g
 71:08, P221108, missing ext2022_12_26 win 9man 71_08 ribs tact
