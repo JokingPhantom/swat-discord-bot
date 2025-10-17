@@ -27,6 +27,7 @@ Fastest EXT:
 74:09, P220405, ext2022_08_14 9man 74_09 xestus gho.w3g
 74:30, P220405, ext2022_08_13_1312 win 8man 74_30 duobox prowler tech packrat pyro 3lad 2mini2.w3g
 74:39, P210328, ext2021_04_12_1917 win 9man 74_39 gifted no espi sal lad3 mini2.w3g
+74:43, P241127, ext2025_10_17_1605 9man 74_43 dragoon borg lad3 2mini2 cpu main tank.w3g
 74:45, P200328, ext2020_03_29_2235 win 6man 74_45 cr tech 2mini2.w3g
 75:00, P220825, ext2022_09_02_1322_win_9man_75_00_sho_lad3_mini2.w3g
 75:06, P220405, ext2022_08_27_1755 win 9man 75_06 engi borg lad3 mini2.w3g
