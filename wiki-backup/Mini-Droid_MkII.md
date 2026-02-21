@@ -23,15 +23,15 @@ LAD Mk) to be spent on increasing the levels of the Trainable Abilities
 further. Mini2s built by a Swat Officer receiver skill points for each
 Circuit Board used by the Mini2 (up to 6).
 
-|                            | Level |
-|----------------------------|-------|
-| **Swat Officer**           | 1     |
-| **Assault Droid**          | 0     |
-| **Mini-Droid MkII**        | 3     |
-| Neutralize Computer System |       |
-| Defense Matrix             |       |
-| Storage Cells              |       |
-| Energy Beam                | 1     |
+| Level                      |       |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| -------------------------- | ----- | - | - | - | - | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Swat Officer               | 1     | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 | 32 | 34 | 36 | 38 | 40 | 42 | 44 | 46 | 48 | 50 | 52 | 54 |
+| Assault Droid              | NA    | 1 | 2 | 3 | 4 | 5  | 6  | 7  | 9  | 11 | 13 | 15 | 17 | 19 | 21 | 23 | 26 | 29 | 32 | 35 | 38 | 41 | 44 | 46 | 48 | 50 | 52 | 54 |
+| Mini-Droid MkII            | 3     | 4 | 5 | 6 | 7 | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 |
+| Neutralize Computer System | 0     | 0 | 0 | 0 | 0 | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 1  | 1  | 1  | 1  | 2  | 2  | 2  | 2  |
+| Defense Matrix             | 0     | 0 | 0 | 0 | 0 | 0  | 1  | 1  | 1  | 1  | 1  | 1  | 1  | 1  | 1  | 1  | 2  | 2  | 2  | 2  | 2  | 2  | 2  | 2  | 2  | 2  | 3  | 3  |
+| Storage Cells              | 0     | 0 | 0 | 0 | 0 | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 1  | 1  | 1  | 2  | 2  | 2  | 3  | 3  | 3  | 4  | 4  | 4  | 5  | 5  | 5  |
+| Energy Beam                | 1     | 1 | 2 | 2 | 2 | 2  | 2  | 3  | 3  | 3  | 3  | 3  | 4  | 4  | 4  | 4  | 4  | 5  | 5  | 5  | 5  | 5  | 6  | 6  | 6  | 6  | 6  | 7  |
 
 ## Trainable Abilities
 
