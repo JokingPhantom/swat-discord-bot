@@ -10,6 +10,7 @@ Fastest Legendary EXT:
 71:14, P230112, ext2023_03_04_1755 win 9man 71_14 legendary engi ss lad3 mini2.w3g
 71:46, P210328, ext2021_04_11_1048 win 9man legendary 71_46 fc tech 2mini2.w3g
 72:25, P180511, ext2019_02_04_2122_win_6man_legendary_72_25_sho.w3g
+73:07, P241127, ext2026_03_02_2047 win 9man 73_07 legendary tech 3lad 2mini2.w3g
 73:18, P230715, ext2024_01_13_1738 win 7man legendary 73_18
 73:25, P200419b, ext2020_05_19_2100_win_6man_legendary_73_25_goon_tech_2mini2.w3g
 73:36, P200528, ext2020_05_31_1834 win 9man legendary 73_36 sl gho.w3g
